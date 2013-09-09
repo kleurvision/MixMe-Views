@@ -1,5 +1,5 @@
 <? /* Global Player */ ?>
-<div class="player-contents row">
+<div class="player-contents">
 	<div class="heading-screws pull-left player-screws-left hidden"></div>
 	<div class="heading-screws pull-right player-screws-right hidden"></div>
 	<div class="player-container">
