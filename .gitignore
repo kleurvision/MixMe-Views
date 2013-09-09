@@ -1,0 +1,12 @@
+# exclude these files from the git repo
+.htaccess
+robots.txt
+config.rb
+error_log
+sites
+vhosts
+
+# Hidden system files
+.DS_Store
+*[Tt]humbs.db
+*.Trashes

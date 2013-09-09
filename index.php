@@ -1,6 +1,6 @@
 <? // MixeMe Band Profile
 
-define('URL','http://mixme.com');
+define('URL','http://local.mixme.com');
 define('ASSETS', URL.'/assets/');
 
 include('assets/inc/header.php');?>
