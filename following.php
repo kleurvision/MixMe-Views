@@ -3,18 +3,18 @@
 include('config.php');
 include('assets/inc/header.php');?>
 <div class="content container">
-
-<? include ('assets/inc/admin/messages-top.php'); ?>
-
+<!-- Top Bar -->
+<? include ('assets/inc/admin/-top.php'); ?>
+<!-- /End Top Bar -->
+<!-- Content -->
 	<div class="row admin_container">
 		<div class="admin_sidebar_container col-md-3">
-			<? include ('assets/inc/admin/messages-sidebar.php');?>
+			<? include ('assets/inc/admin/albums-sidebar.php');?>
 		</div>
 		<div class="admin_stage_container col-md-9">
-			<? include ('assets/inc/admin/messages-stage.php');?>
-
+			<? include ('assets/inc/admin/albums-stage.php');?>
 		</div>
 	</div>
-
-</div><!-- content -->
+<!-- / End Content -->
+</div>
 <? include('assets/inc/footer.php'); ?>

@@ -25,7 +25,9 @@
 </head>
 
 <body>
+
 	<div class="wrap">
+	<!-- Global Header -->
 		<nav class="navbar global_header row navbar-fixed-top">
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navigation">
@@ -52,5 +54,6 @@
 				</ul>
 			</nav>
 
-		</nav><!-- global_header -->
+		</nav>
+	<!-- / End Global Header -->
 		<div class="main">	
