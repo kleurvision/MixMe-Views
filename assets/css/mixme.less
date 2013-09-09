@@ -1,3 +1,6 @@
+// Bootstrap
+@import 'bootstrap.css';
+
 /* Load Fonts */
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 /* font-family: 'Quattrocento Sans', sans-serif; */
@@ -985,4 +988,50 @@ h2.admin_title{
 	text-transform: lowercase;
 	color: #92288D;
 	font-weight: bold;
+}
+
+.test{
+	color:#333333;
+}
+
+
+
+
+
+
+
+// Responsive
+////////////////////////////////////////////////////////////
+
+/* Extra small devices (phones, up to 480px) */
+/* No media query since this is the default in Bootstrap */
+
+/* Small devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+	.player-controls-wrap{
+		padding: 0px;
+	}
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+	.profile_stage_container{
+		padding: 0 0 0 10px;
+	}	
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+	.profile_stage_container{
+		padding: 0 0 0 10px;
+	}	
+}
+
+/* Small Screen player override - black bar */
+@media (max-width: 767px) {
+	.player-contents{
+		background: #000;
+		box-shadow: none;
+		color: #fff;
+	}
 }

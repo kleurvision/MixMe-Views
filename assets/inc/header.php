@@ -24,12 +24,10 @@
 <body>
 
 	<div class="wrap">
-<<<<<<< HEAD
+
 	<!-- Global Header -->
 		<nav class="navbar global_header row navbar-fixed-top">
-=======
-		<nav class="navbar global_header navbar-fixed-top">
->>>>>>> a0527d4f0026046946bee883c8287db28641bfda
+
 			<div class="navbar-header">
 				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".main-navigation">
 			      <span class="sr-only">Toggle navigation</span>
