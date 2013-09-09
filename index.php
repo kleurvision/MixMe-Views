@@ -16,4 +16,3 @@ include('assets/inc/header.php');?>
 	</div>
 
 </div><!-- content -->
-<? include('assets/inc/footer.php'); ?>
