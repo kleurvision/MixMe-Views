@@ -1,8 +1,6 @@
 <? // MixeMe Band Profile
 
-define('URL','http://mixme.com');
-define('ASSETS', URL.'/assets/');
-
+include('config.php');
 include('assets/inc/header.php');?>
 <div class="content container">
 
