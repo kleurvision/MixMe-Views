@@ -4,15 +4,15 @@ include('config.php');
 include('assets/inc/header.php');?>
 <div class="content container">
 <!-- Top Bar -->
-<? include ('assets/inc/admin/-top.php'); ?>
+<? include ('assets/inc/admin/following-top.php'); ?>
 <!-- /End Top Bar -->
 <!-- Content -->
 	<div class="row admin_container">
 		<div class="admin_sidebar_container col-md-3">
-			<? include ('assets/inc/admin/albums-sidebar.php');?>
+			<? include ('assets/inc/admin/following-sidebar.php');?>
 		</div>
 		<div class="admin_stage_container col-md-9">
-			<? include ('assets/inc/admin/albums-stage.php');?>
+			<? include ('assets/inc/admin/following-stage.php');?>
 		</div>
 	</div>
 <!-- / End Content -->

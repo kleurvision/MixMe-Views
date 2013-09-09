@@ -132,5 +132,16 @@ i.icon-mm-events{background-position:-6px -166px}
 .message_avatar{border:2px solid #fff;box-shadow:0 0 2px #999;margin:0 5px}
 .message_date{display:block;overflow:hidden;text-align:right;clear:both}
 .message_controls{display:block;overflow:hidden;text-align:right;clear:both;margin:0;font-size:12px;text-transform:lowercase;color:#92288d;font-weight:bold}
-.test{color:#333}
+.album_thumb{position:relative;box-shadow:0 -3px 5px #c3c3c3;-moz-box-shadow:0 -3px 5px #c3c3c3;-webkit-box-shadow:0 -3px 5px #c3c3c3}
+.album_meta{position:absolute;background:rgba(236,236,236,0.9);display:none;width:100%;height:101%;top:0;left:0;padding:7px}
+.album_pink_txt{color:#ed145b;font-size:22px;margin:-2px 0 0 0;font-weight:lighter}
+.album_info{margin:-5px 0 5px 0;font-weight:lighter;font-size:13px}
+.album_play_icon{position:absolute;bottom:10px}
+.album_heart_icon{position:absolute;bottom:15px;right:8px}
+.album_bandname{color:#01aef0;font-size:14px;margin-bottom:25px;margin-top:5px;font-weight:bold;line-height:15px;height:30px}
+.following_stage{padding-top:40px;padding-left:7%;padding-right:7%}
+.admin_stage_bottom{background:url(../img/30_blk.png) repeat;height:50px;border-top:1px solid #666}
+.search_inbox{color:#fff !important}
+.requests{height:70px;border-bottom:1px dotted #858585}
+.request-name{font-size:12px;color:#9d9d9d}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.profile_stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff}}

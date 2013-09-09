@@ -6,9 +6,13 @@
 				<h2 class="admin_stage_title stage_title">Artists You're Following</h2>
 			</div>
 
-			<div class="admin_stage_content">
-			<? include ('assets/inc/admin/inc/grid.php');?>
+				<div class="admin_stage_content following_stage">
+				<? include ('assets/inc/admin/inc/grid.php');?>
+				</div>
+
+			<div class="admin_stage_bottom">
 			</div>
+
 		</div>
 	</div>
 </div>
