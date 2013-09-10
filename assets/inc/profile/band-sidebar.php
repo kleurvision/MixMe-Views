@@ -18,7 +18,7 @@
 		<i class="icon-mm-mixtapes"></i> Mixtapes
 	</li>
 	<li class="profile_section_trigger trigger_bio">
-		<i class="icon-mm-bio"></i> Bio
+		<a class="ajax-load" data-link='bio'><i class="icon-mm-bio"></i> Bio</a>
 	</li>
 	<li class="profile_section_trigger trigger_events">
 		<i class="icon-mm-events"></i> Events
