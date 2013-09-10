@@ -142,6 +142,14 @@ i.icon-mm-events{background-position:-6px -166px}
 .following_stage{padding-top:40px;padding-left:7%;padding-right:7%}
 .admin_stage_bottom{background:url(../img/30_blk.png) repeat;height:50px;border-top:1px solid #666}
 .search_inbox{color:#fff !important}
-.requests{height:70px;border-bottom:1px dotted #858585}
-.request-name{font-size:12px;color:#9d9d9d}
+.friend_requests_section{margin-bottom:20px}
+.requests{height:65px;border-bottom:1px dotted #858585;width:100%;padding-top:5px;padding-bottom:5px}
+.friend_request_photo{float:left;width:53px;margin-right:8px;margin-top:1px}
+.request-name{font-size:12px;color:#9d9d9d;margin-top:1px;margin-bottom:3px}
+.friend_request_btn{float:left;width:80px;clear:none;margin-right:8px}
+.sections_header{color:#92278f;border-bottom:solid 1px #333;padding-bottom:10px;width:100%}
+.bio_content{color:#989d99}.bio_content>p{padding-bottom:10px}
+.bio_bandname{color:#fff;margin-bottom:0}
+.bio_subtext{color:#089ad3;margin-top:5px}
+.select_section{float:left;margin-top:5px;margin-right:10px}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.profile_stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff}}

@@ -13,17 +13,8 @@
 </div>
 
 <div class="admin_sidebar_content">
-	<div class="friend-requests">
-	<h2 class="admin_sidebar_title stage_title">Friend Requests</h2>
-		<div class="requests">
-			<img src="<?=ASSETS;?>/img/friend_request.png" class="pull-left">
-			<p class="request-name">John Smith</p>
-			<span class="label label-default pull-right">Accept</span>
-			<span class="label label-default pull-right">Decline</span>
 
-		</div>
-
-	</div>
+	<? include ('inc/friend-request.php');?>
 
 	<h2 class="admin_sidebar_title stage_title">Fan Groups</h2>
 	<div class="messages_tag_area">

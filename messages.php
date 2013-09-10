@@ -11,7 +11,8 @@ include('assets/inc/header.php');?>
 			<? include ('assets/inc/admin/messages-sidebar.php');?>
 		</div>
 		<div class="admin_stage_container col-md-9">
-			<? include ('assets/inc/admin/messages-stage.php');?>
+			<!--<? include ('assets/inc/admin/messages-stage.php');?>-->
+			<? include ('assets/inc/admin/messages-inbox-stage.php');?>
 
 		</div>
 	</div>
