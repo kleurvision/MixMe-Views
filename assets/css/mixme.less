@@ -1114,6 +1114,11 @@ h2.admin_title{
 	width: 100%;
 }
 
+.section_title{
+	width: 100px;
+	position: relative;
+}
+
 .bio_content{
 	color: #989d99;
 	> p{
@@ -1146,7 +1151,184 @@ h2.admin_title{
 	float: right;
 }
 
+/* ///////////// Band Profile - music list //////////// */
+.profile_music_content{
 
+}
+
+.profile_album_section{
+	padding: 10px 0 10px 10px;
+	border-bottom: solid 1px #333333;
+	>a{
+		color: #777;
+	}
+
+}
+
+.album_background{
+	padding: 5px;
+	background: #000;
+	height: 140px;
+	position: relative;
+}
+
+.profile_album_thumb{
+	width: 130px;
+	height: 130px;
+	border: 1px solid #777777;
+	margin-right: 10px;
+	float: left;
+	
+}
+
+.list_album_title{
+	margin: 5px 0 0 0;
+	color: #fff;
+	clear: right;
+}
+
+.list_bandname_title{
+	clear: right;
+	margin: 2px 0 0 0;
+	color: #089bd3;
+}
+
+.list_bandname_genre{
+	margin: 0;
+	color: #777777;
+	clear: right;
+}
+
+.profile_album_icons{
+	color: #777777;
+	font-size: 25px;
+	:hover{
+		text-decoration: none;
+		color: #089bd3;
+	}
+}
+
+.album_list_info{
+	color: #fefe00;
+	>span{
+		margin: 0 5px;
+	}
+	>a{
+		color: #fefe00;
+	}
+	>a:hover{
+		text-decoration: underline;
+		color: #fefe00;
+	}
+}
+
+.album_fav{
+	position: absolute;
+	top: 10px;
+	right: 50px;
+}
+
+.album_share{
+	position: absolute;
+	top: 11px;
+	right: 15px;
+}
+
+.album_pulldown{
+	position: absolute;
+	right: 15px;
+	bottom: 5px;
+	font-size: 35px;
+}
+
+.view_btns{
+	height: 30px;
+	position: absolute;
+	top: 20px;
+	right: 30px;
+}
+
+.album_view_grid{
+	float: right;
+	width: 45px;
+	height: 30px;
+	background: url(../img/admin_bkg.png) repeat;
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top: solid 3px #000;
+	border-right: solid 3px #000;
+	border-bottom: solid 3px #000;
+	border-left: solid 1px #000;
+	>i{
+		margin-right: 10px;
+	}
+}
+
+.album_view_list{
+	float: right;
+	width: 45px;
+	height: 30px;
+	background: url(../img/admin_bkg.png) repeat;
+	border-top-left-radius: 8px;
+	border-bottom-left-radius: 8px;
+	border-top: solid 3px #000;
+	border-bottom: solid 3px #000;
+	border-left: solid 3px #000;
+	>i{
+		margin-right: 10px;
+	}
+}
+
+.track_list{
+	color: #777777;
+	padding-top: 10px;
+	width: 100%;
+	display: none;
+}
+
+.track_no{
+	width: 10px;
+	margin:0;
+	padding: 0;
+}
+
+.track_name{
+
+}
+
+.plus_icon{
+	font-size: 15px;
+	width: 20px;
+	margin: 0;
+	padding: 0;
+	>a{
+		color: #777777;
+	}
+	>a:hover{
+		text-decoration: none;
+		color: #089bd3;
+	}
+}
+
+.play_icon{
+	.plus_icon;
+
+}
+
+.table-striped > tbody > tr:nth-child(odd) > td, .table-striped > tbody > tr:nth-child(odd) > th{
+	background-color: #000;
+}
+
+.table thead > tr > th, .table tbody > tr > th, .table tfoot > tr > th, .table thead > tr > td, .table tbody > tr > td, .table tfoot > tr > td{
+	border: none;
+}
+
+tbody > tr:last-child{
+	border-bottom: solid 1px #333333;
+}
+
+.table{
+}
 // Responsive
 ////////////////////////////////////////////////////////////
 

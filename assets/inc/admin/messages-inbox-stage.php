@@ -72,7 +72,26 @@
 								<img class="img-circle pull-left message_avatar" src="<?=ASSETS;?>img/temp_avatar.jpg">
 								<div class="message_details pull-left">
 									<span class="message_from">John Smith</span>
-									<span class="message_subject message_read">This is the subject line of a new message</span>
+									<span class="message_subject message_read">RE: This is the subject line of a replied message</span>
+								</div>
+							</div>
+							<div class="col-md-5">
+								<span class="message_date">July 1</span>
+								<ul class="message_controls list-inline">
+									<li><i class="icon-mail-reply"></i> reply</li>
+									<li><i class="icon-mail-forward"></i> forward</li>
+									<li><i class="icon-remove"></i> delete</li>
+								</ul>
+							</div>
+						</div>
+
+						<div class="messages_message">
+							<div class="col-md-7">
+								<input class="pull-left" type="checkbox" name="message_select" />
+								<img class="img-circle pull-left message_avatar" src="<?=ASSETS;?>img/temp_avatar.jpg">
+								<div class="message_details pull-left">
+									<span class="message_from">John Smith</span>
+									<span class="message_subject message_read"> <i class="icon-mail-reply"></i> RE: This is the subject line of a replied to message</span>
 								</div>
 							</div>
 							<div class="col-md-5">
@@ -88,6 +107,10 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="admin_stage_bottom">
+			</div>
+			
 		</div>
 	</div>
 </div>

@@ -12,7 +12,7 @@
 		<i class="icon-mm-activity"></i> Activity
 	</li>
 	<li class="profile_section_trigger trigger_music">
-		<i class="icon-mm-music"></i> Music
+		<a class="ajax-load" data-link='profile-music-list'><i class="icon-mm-music"></i> Music</a>
 	</li>
 	<li class="profile_section_trigger trigger_mixtapes">
 		<i class="icon-mm-mixtapes"></i> Mixtapes

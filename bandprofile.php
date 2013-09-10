@@ -12,7 +12,7 @@ include('assets/inc/header.php');?>
 		</div>
 		<div class="profile_stage_container col-md-9">
 			<!--<? include ('assets/inc/profile/band-stage.php');?>-->
-			<? include ('assets/inc/profile/band-bio.php');?> 
+			<? include ('assets/inc/profile/band-profile-music-list.php');?>
 		</div>
 	</div>
 
