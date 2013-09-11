@@ -627,6 +627,13 @@ img{
 	box-shadow: 0 15px 25px -5px rgba(0,0,0,0.3) inset;
 }
 
+.profile_post_icon_wrapper{
+	height: 35px;
+	border-top: solid 1px #8d5582;
+	margin: 0 15px;
+	margin-bottom: 10px;
+}
+
 .profile_navigation{
 	
 }
@@ -1182,7 +1189,7 @@ h2.admin_title{
 }
 
 .list_album_title{
-	margin: 5px 0 0 0;
+	margin: 3px 0 0 0;
 	color: #fff;
 	clear: right;
 }
@@ -1248,52 +1255,81 @@ h2.admin_title{
 	right: 30px;
 }
 
-.album_view_grid{
-	float: right;
-	width: 45px;
-	height: 30px;
-	background: url(../img/admin_bkg.png) repeat;
-	border-top-right-radius: 8px;
-	border-bottom-right-radius: 8px;
-	border-top: solid 3px #000;
-	border-right: solid 3px #000;
-	border-bottom: solid 3px #000;
-	border-left: solid 1px #000;
-	>i{
-		margin-right: 10px;
-	}
-}
-
 .album_view_list{
 	float: right;
 	width: 45px;
-	height: 30px;
-	background: url(../img/admin_bkg.png) repeat;
+	height: 31px;
+	background-image: gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -moz-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -ms-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -o-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+
 	border-top-left-radius: 8px;
 	border-bottom-left-radius: 8px;
 	border-top: solid 3px #000;
 	border-bottom: solid 3px #000;
 	border-left: solid 3px #000;
-	>i{
-		margin-right: 10px;
+	padding: 6px 13px;
+	>a{
+		width: 15px;
+		color: #fff;
+		text-decoration: none;
 	}
 }
 
-.track_list{
+.album_view_list:hover{
+	background-image: gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -moz-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -ms-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -o-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+}
+
+.album_view_grid{
+	float: right;
+	width: 45px;
+	height: 31px;
+	background-image: gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -moz-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -ms-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+	background-image: -o-gradient(linear, left top, left bottom, color-stop(0%, #9f9f9e), color-stop(50%, #bebebe), color-stop(50%, #a9a8a8), color-stop(100%, #bebebe));
+
+	border-top-right-radius: 8px;
+	border-bottom-right-radius: 8px;
+	border-top: solid 3px #000;
+	border-bottom: solid 3px #000;
+	border-right: solid 3px #000;
+	border-left: solid 1px #000;
+	padding: 6px 13px;
+
+	>a{
+		width: 15px;
+		color: #fff;
+		text-decoration: none;
+	}	
+}
+
+.album_view_grid:hover{
+	background-image: gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -moz-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -ms-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+	background-image: -o-gradient(linear, left top, left bottom, color-stop(0%, #878785), color-stop(50%, #989897), color-stop(50%, #636363), color-stop(100%, #989897));
+}
+
+.track_list_grid, .track_list{
 	color: #777777;
 	padding-top: 10px;
-	width: 100%;
 	display: none;
 }
+
 
 .track_no{
 	width: 10px;
 	margin:0;
 	padding: 0;
-}
-
-.track_name{
-
 }
 
 .plus_icon{
@@ -1327,8 +1363,192 @@ tbody > tr:last-child{
 	border-bottom: solid 1px #333333;
 }
 
-.table{
+.album_grid_thumb{
+	position:relative;
 }
+
+.profile_grid_content{
+	padding-top: 15px;
+	padding-left: 7%;
+	padding-right: 7%;
+}
+
+.grid_plus_icon{
+	width: 30px;
+	height: 30px;
+	background: url(../img/plus-icon.png);
+	position: absolute;
+	z-index: 1;
+	bottom: 3px;
+	right: 3px;
+}
+
+.grid_plus_icon:hover{
+	background: url(../img/plus_icon_hover_grey.png);
+}
+
+.band_info_container{
+	position: relative;
+}
+
+.grid_bandname{
+	color: #01aef0;
+	font-size: 14px;
+	margin-top: 5px;
+	font-weight: bold; 
+	line-height: 15px;
+	margin-bottom: 0;
+	
+}
+
+.grid_genre{
+	margin-bottom: 10px;
+	color: #777777;
+	font-size: 13px;
+}
+
+.favourite_icon{
+	position: absolute;
+	font-size: 18px;
+	color: #000;
+	top: 5px;
+	right: 30px;
+}
+
+.share_icon{
+	position: absolute;
+	font-size: 18px;
+	color: #000;
+	top: 6px;
+	right: 3px;
+}
+
+.grid_icon_link{
+	:hover{
+		color: #089ad3;
+		text-decoration: none;
+	}
+}
+
+.event_title{
+	.list_album_title;
+}
+
+
+
+.event_attending_icons{
+	color: #fff;
+	display: inline-block;
+	font-size: 22px;
+	margin: 0 5px 5px 0;
+	float: left;
+}
+
+.event_attend_text{
+	color: #fff;
+	font-size: 15px;
+	margin-top: 8px;
+	clear: right;
+
+}
+
+.attending_number_line{
+	color: #fefe00;
+	>p{
+		margin-bottom: 0;
+	}
+}
+
+.carpool_icon{
+	font-size: 20px;
+}
+
+.event_carpool_btn{
+	color: #fff;
+	background-color: #a0a09e;
+	display: inline-block;
+  	padding: 6px 12px;
+  	margin-bottom: 0;
+  	font-size: 14px;
+  	font-weight: bold;
+  	line-height: 1.428571429;
+  	text-align: center;
+  	white-space: nowrap;
+ 	vertical-align: middle;
+  	cursor: pointer;
+  	border: 1px solid transparent;
+  	border-radius: 4px;
+    -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+       -o-user-select: none;
+          user-select: none;
+    position: absolute;
+	right: 15px;
+	bottom: 15px;
+}
+
+.event_carpool_btn:hover, .event_carpool_btn:focus {
+  	color: #333333;
+  	background-color: #60605f;
+ 	text-decoration: none;
+}
+
+.event_carpool_btn:active,
+.event_carpool_btn.active {
+    outline: 0;
+    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+        box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+}
+
+.status_icons{
+	color: #a6739c;
+	font-size: 20px;
+	margin: 10px 10px 10px 0;
+	float: left;
+}
+
+.status_icons:hover{
+	color: #fff;
+}
+
+.status_post{
+	color: #fff;
+	font-size: 17px;
+	margin-top: 10px;
+}
+
+.fan_target_sidebar{
+	background: red;
+}
+
+.fan_target_map{
+	background: yellow;
+}
+
+.fan_target_content{
+	background: url(../img/admin_bkg.png) repeat #e1e1e1;
+
+}
+
+ .target-dialog {
+    width: 900px;
+  }
+
+.messages_target_form{
+	padding: 10px;
+}
+
+.targeting_gender_age{
+	width: 48%;
+	float: left;
+}
+
+.envelope_icon{
+	font-size: 20px;
+}
+
+
 // Responsive
 ////////////////////////////////////////////////////////////
 

@@ -9,8 +9,10 @@
 			<li><a>Archived</a></li>
 			<li><a>Trashed</a></li>
 		</ul>
-		<div class="btn admin_compose_message global_action_btn pull-right gradient">
-			<i class="icon-edit"></i> Compose Message
-		</div>
+		<a data-toggle="modal" href="#myModal">
+			<div class="btn admin_compose_message global_action_btn pull-right gradient">
+				<i class="icon-edit"></i> Compose Message
+			</div>
+		</a>
 	</div>
 </div>

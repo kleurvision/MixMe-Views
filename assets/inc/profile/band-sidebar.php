@@ -21,7 +21,7 @@
 		<a class="ajax-load" data-link='bio'><i class="icon-mm-bio"></i> Bio</a>
 	</li>
 	<li class="profile_section_trigger trigger_events">
-		<i class="icon-mm-events"></i> Events
+		<a class="ajax-load" data-link='profile-event'><i class="icon-mm-events"></i> Events</a>
 	</li>
 </ul>
 <div class="profile_info global_info">

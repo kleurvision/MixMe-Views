@@ -54,6 +54,75 @@
 						</div>
 					</div>
 				</div>
+
+				<!-- Modal -->
+				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+				    <div class="modal-dialog target-dialog">
+				        <div class="modal-content">
+				            <div class="admin_stage_head">
+				                
+									<h2 class="admin_stage_title stage_title">Fan Targeting</h2>
+								
+				        	</div>
+				        	<div class="fan_target_content">
+				        		<div class="row">
+					        		<div class="col-md-4"> 
+						        		<form class="messages_target_form">
+						        			<div class="form-group">
+		    									<label for="groupname">group name</label>
+		    									<input type="text" class="form-control" id="groupname">
+		    								</div>
+		    										<div class="row"> 
+		    										<div class="col-md-6">
+			    										<div class="form-group">
+			    											<label for="gender">gender</label>
+			    											<input type="text" class="form-control" id="gender">
+			    										</div>
+		    										</div>
+
+		    										<div class="col-md-6">
+		    											<div class="form-group age_input">
+			    											<label for="age">age</label>
+			    											<input type="text" class="form-control" id="age">
+		    											</div>
+		    										</div>
+		    										</div>
+		    									
+		    										<div class="form-group">
+			    										<label for="country">country</label>
+			    										<input type="text" class="form-control" id="country">
+		    										</div>
+
+		    										<div class="form-group">
+			    										<label for="searcharea">search area</label>
+			    										<input type="text" class="form-control" id="searcharea">
+		    										</div>
+
+		    										<div class="form-group">
+			    										<label for="range">range</label>
+			    										<input type="text" class="form-control" id="range">
+		    										</div>
+
+		    										<div class="form-group">
+			    										<div class="btn admin_compose_message global_action_btn btn-block gradient">
+															<i class="icon-envelope-alt envelope_icon"></i> Save and Compose
+														</div>
+													</div>
+		 									 </div>
+						        		</form>
+					        		</div> <!-- end column -->
+
+					        		<div class="col-md-8"> 
+					        		</div>
+					        	</div> <!-- end row -->
+				        	</div>
+				        	<div class="admin_stage_bottom">
+				          		<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+				        	</div>
+				      	</div><!-- /.modal-content -->
+				    </div><!-- /.modal-dialog -->
+				</div><!-- /.modal -->
+
 			</div>
 		</div>
 	</div>

@@ -1,10 +1,4 @@
-<div class="row">
-	<form name="post_to_profile" class="col-md-12">
-		<div class="profile_post_input_wrapper">
-			<input type="text" placeholder="Post something for Dance Gavin Dance..." />
-		</div>
-	</form>
-</div>
+<? include ('band-statusbar.php');?>
 
 <div class="row">
 	<div class="col-md-12">
@@ -13,10 +7,11 @@
 				<h4 class="section_title">Music</h4>
 				<div class="view_btns">
 					<div class="album_view_grid">
-						<!--<a href="#"><i class="icon-th-list pull-right"></i></a> -->
-					</div>
-					<div class="album_view_list">
 						<a href="#"><i class="icon-th pull-right"></i></a>
+					</div>
+
+					<div class="album_view_list">
+						<a href="#"><i class="icon-th-list pull-right"></i></a>
 					</div>
 				</div>
 			</div>
@@ -35,7 +30,7 @@
 					</div>
 				</div>
 
-				<div class="track_list">
+				<div class="track_list row">
 				<table class="table table-striped">
 					<tr class="">
 						<td class="track_no">1/</td>
@@ -62,19 +57,19 @@
 						<td class="play_icon"><a href="#" class=""><i class="icon-play"></i></a></td>
 					</tr>
 					<tr class="">
-						<td class="track_no">4/</td>
+						<td class="track_no">5/</td>
 						<td class="track_name">Shotgun Wedding (3:23)</td>
 						<td class="plus_icon"><a href="#" class=""><i class="icon-plus-sign"></i></a></td>
 						<td class="play_icon"><a href="#" class=""><i class="icon-play"></i></a></td>
 					</tr>
 					<tr class="">
-						<td class="track_no">4/</td>
+						<td class="track_no">6/</td>
 						<td class="track_name">I'm Awesome (3:23)</td>
 						<td class="plus_icon"><a href="#" class=""><i class="icon-plus-sign"></i></a></td>
 						<td class="play_icon"><a href="#" class=""><i class="icon-play"></i></a></td>
 					</tr>
 				</table>
-			</div>
+				</div>
 
 				<div class="profile_album_section row">
 					<div class="album_background">

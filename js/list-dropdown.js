@@ -1,10 +1,11 @@
-/*$(document).ready(function() {
-	$('#pull_down_1').click(
+/*
+$(document).ready(function() {
+	$('#thumb-1').toggle(
 		function () {
-		$('#meta-1').fadeIn('fast');
+		$('.track_list_grid').slideDown('fast');
 		}, 
 		function () {
-		$('#meta-1').fadeOut('fast');
+		$('.track_list_grid').slideUp('fast');
 		}
 	);
 $(function() {
@@ -16,7 +17,8 @@ $(function() {
 });
 });
 */
-$("#pull_down_1").click(function(e) {
+/*////////////// list dropdown ////////////////*/
+$("#pull_down_1").toggle(function(e) {
     e.preventDefault();
     e.stopPropagation();
     // do your worst, i.e. slide down
@@ -32,3 +34,23 @@ $(".track_list").click(function(e) {
     e.preventDefault();
     e.stopPropagation();
 });
+
+/*////////////// grid dropdown ////////////////*/
+
+$("#thumb-1").click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+    // do your worst, i.e. slide down
+    $(".track_list_grid").slideDown("fast");
+});
+
+$(document).click(function() {
+    // slide up
+    $(".track_list_grid").slideUp("fast");
+});
+
+$(".track_list_grid").click(function(e) {
+    e.preventDefault();
+    e.stopPropagation();
+});
+

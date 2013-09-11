@@ -11,8 +11,9 @@ include('assets/inc/header.php');?>
 			<? include ('assets/inc/profile/band-sidebar.php');?>
 		</div>
 		<div class="profile_stage_container col-md-9">
-			<!--<? include ('assets/inc/profile/band-stage.php');?>-->
-			<? include ('assets/inc/profile/band-profile-music-list.php');?>
+			
+			<? include ('assets/inc/profile/band-profile-music-grid.php');?>
+			
 		</div>
 	</div>
 
