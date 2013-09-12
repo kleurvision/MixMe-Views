@@ -16,6 +16,8 @@
 				</div>
 			</div>
 			<div class="profile_music_content">
+
+				<!-- album section -->
 				<div class="profile_album_section row">
 					<div class="album_background">
 							<img src="<?=ASSETS;?>/img/album_holder.jpg" alt="album image" class="profile_album_thumb" />
@@ -29,7 +31,9 @@
 							<a href="#" class="profile_album_icons"><i class="icon-angle-down pull-right album_pulldown" id="pull_down_1"></i></a>
 					</div>
 				</div>
+				<!--/end album section -->
 
+				<!-- track list dropdown example -->
 				<div class="track_list row">
 				<table class="table table-striped">
 					<tr class="">
@@ -70,7 +74,9 @@
 					</tr>
 				</table>
 				</div>
+				<!-- /end track list dropdown example -->
 
+				<!-- album section -->
 				<div class="profile_album_section row">
 					<div class="album_background">
 							<img src="<?=ASSETS;?>/img/album_holder.jpg" alt="album image" class="profile_album_thumb" />
@@ -84,9 +90,41 @@
 							<a href="#" class="profile_album_icons"><i class="icon-angle-down pull-right album_pulldown"></i></a>
 					</div>
 				</div>
+				<!--/end album section -->
+
+				<!-- album section -->
+				<div class="profile_album_section row">
+					<div class="album_background">
+							<img src="<?=ASSETS;?>/img/album_holder.jpg" alt="album image" class="profile_album_thumb" />
+							<h3 class="list_album_title">Album Title</h3>
+							<h4 class="list_bandname_title">Bandname</h4>
+							<p class="list_bandname_genre">Genre</p>
+							<a href="#" class="profile_album_icons"><i class="icon-plus-sign"></i></a>
+							<p class="album_list_info"><a href="#">14 Tracks</a> <span>&#8226;</span> <a href="#">789 Likes</a> <span>&#8226;</span>  <a href="#">42 Comments</a></p>
+							<a href="#" class="profile_album_icons"><i class="icon-star pull-right album_fav"></i></a> 
+							<a href="#" class="profile_album_icons"><i class="icon-share pull-right album_share"></i></a>
+							<a href="#" class="profile_album_icons"><i class="icon-angle-down pull-right album_pulldown"></i></a>
+					</div>
+				</div>
+				<!--/end album section -->
+
+				<!-- album section -->
+				<div class="profile_album_section row">
+					<div class="album_background">
+							<img src="<?=ASSETS;?>/img/album_holder.jpg" alt="album image" class="profile_album_thumb" />
+							<h3 class="list_album_title">Album Title</h3>
+							<h4 class="list_bandname_title">Bandname</h4>
+							<p class="list_bandname_genre">Genre</p>
+							<a href="#" class="profile_album_icons"><i class="icon-plus-sign"></i></a>
+							<p class="album_list_info"><a href="#">14 Tracks</a> <span>&#8226;</span> <a href="#">789 Likes</a> <span>&#8226;</span>  <a href="#">42 Comments</a></p>
+							<a href="#" class="profile_album_icons"><i class="icon-star pull-right album_fav"></i></a> 
+							<a href="#" class="profile_album_icons"><i class="icon-share pull-right album_share"></i></a>
+							<a href="#" class="profile_album_icons"><i class="icon-angle-down pull-right album_pulldown"></i></a>
+					</div>
+				</div>
+				<!--/end album section -->
+
 			</div>
-
-
 		</div>
 	</div>
 </div>

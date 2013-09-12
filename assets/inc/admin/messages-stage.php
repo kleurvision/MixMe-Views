@@ -28,10 +28,39 @@
 							<label>message</label>
 							<textarea rows="8" class="form-control"></textarea>
 						</div>
+
+						<button type="button" class="btn btn-default btn-sm">
+							<i class="icon-ok"></i> Send
+						</button>
+						<button type="button" class="btn btn-default btn-sm">
+							 Cancel
+						</button>
+						<input type="checkbox" class="compose_checkbox"> 
+							<span class="checkbox_txt">copy myself</span>
+						</input>
+
+						<input type="checkbox" class="compose_checkbox"> 
+							<span class="checkbox_txt">send as urgent</span>
+						</input>
 					</form>
 				</div>
 				<div class="messages_inbox">
 					<div class="messages_inbox_controls">
+						<p class="select_section">Select: <a href="#">all</a> | <a href="#">none</a> </p>
+						<button type="button" class="btn btn-default btn-sm">
+							 Delete
+						</button>
+						<button type="button" class="btn btn-default btn-sm">
+							Archive
+						</button>
+						<button type="button" class="btn btn-default btn-sm">
+							Read
+						</button>
+						<button type="button" class="btn btn-default btn-sm">
+							Unread
+						</button>
+
+						<p class="sort_section">Sort: <a href="#">newest</a> | <a href="#">oldest</a> </p>
 					</div>
 					<div class="messages_inbox_messages">
 						<div class="messages_message">
@@ -55,7 +84,7 @@
 					</div>
 				</div>
 
-				<!-- Modal -->
+				<!-- targeting map modal -->
 				<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
 				    <div class="modal-dialog target-dialog">
 				        <div class="modal-content">
@@ -72,7 +101,7 @@
 		    									<label for="groupname">group name</label>
 		    									<input type="text" class="form-control" id="groupname">
 		    								</div>
-		    										<div class="row"> 
+	    										<div class="row"> 
 		    										<div class="col-md-6">
 			    										<div class="form-group">
 			    											<label for="gender">gender</label>
@@ -86,38 +115,41 @@
 			    											<input type="text" class="form-control" id="age">
 		    											</div>
 		    										</div>
-		    										</div>
-		    									
-		    										<div class="form-group">
-			    										<label for="country">country</label>
-			    										<input type="text" class="form-control" id="country">
-		    										</div>
+	    										</div>
+	    									
+	    										<div class="form-group">
+		    										<label for="country">country</label>
+		    										<input type="text" class="form-control" id="country">
+	    										</div>
 
-		    										<div class="form-group">
-			    										<label for="searcharea">search area</label>
-			    										<input type="text" class="form-control" id="searcharea">
-		    										</div>
+	    										<div class="form-group">
+		    										<label for="searcharea">search area</label>
+		    										<input type="text" class="form-control" id="searcharea">
+	    										</div>
 
-		    										<div class="form-group">
-			    										<label for="range">range</label>
-			    										<input type="text" class="form-control" id="range">
-		    										</div>
+	    										<div class="form-group">
+		    										<label for="range">range (miles)</label>
+		    										<input type="text" class="form-control" id="range">
+	    										</div>
 
-		    										<div class="form-group">
-			    										<div class="btn admin_compose_message global_action_btn btn-block gradient">
-															<i class="icon-envelope-alt envelope_icon"></i> Save and Compose
-														</div>
+	    										<div class="form-group">
+		    										<div class="btn admin_compose_message global_action_btn btn-block gradient" data-dismiss="modal">
+														<i class="icon-envelope-alt" id="save_envelope_icon"></i> Save and Compose
 													</div>
-		 									 </div>
+												</div>
+		 									
 						        		</form>
-					        		</div> <!-- end column -->
 
-					        		<div class="col-md-8"> 
+						        		
+					        		</div> <!-- end column -->
+									<div class="col-md-8 targeting_map_column"> 
+						        		
 					        		</div>
+					        		
 					        	</div> <!-- end row -->
-				        	</div>
-				        	<div class="admin_stage_bottom">
-				          		<!--<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>-->
+					        	<div class="admin_stage_bottom">
+				          		
+				        		</div>
 				        	</div>
 				      	</div><!-- /.modal-content -->
 				    </div><!-- /.modal-dialog -->

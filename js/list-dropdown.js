@@ -18,39 +18,25 @@ $(function() {
 });
 */
 /*////////////// list dropdown ////////////////*/
-$("#pull_down_1").toggle(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    // do your worst, i.e. slide down
-    $(".track_list").slideDown("fast");
+
+
+$('#pull_down_1').click(function() {
+  $('.track_list').slideToggle('slow', function() {
+
+  });
+    
 });
 
-$(document).click(function() {
-    // slide up
-    $(".track_list").slideUp("fast");
-});
 
-$(".track_list").click(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-});
 
 /*////////////// grid dropdown ////////////////*/
 
-$("#thumb-1").click(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-    // do your worst, i.e. slide down
-    $(".track_list_grid").slideDown("fast");
+$('#thumb-1').click(function() {
+  $('.track_list_grid').slideToggle('slow', function() {
+   // $('.album_grid_thumb').fadeTo('fast', 0.3);
+
+    // Animation complete.
+  });
 });
 
-$(document).click(function() {
-    // slide up
-    $(".track_list_grid").slideUp("fast");
-});
-
-$(".track_list_grid").click(function(e) {
-    e.preventDefault();
-    e.stopPropagation();
-});
 
