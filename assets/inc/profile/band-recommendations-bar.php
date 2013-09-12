@@ -18,7 +18,7 @@
 	<div class="row rec_thumbnails_container">
 		<div class="col-md-2">
 			<!-- Album Thumbnail -->
-			<div class="album_grid_thumb">
+			<div class="album_grid_thumb album_login_sidebar">
 				<img src="<?=ASSETS;?>/img/album_holder.jpg" alt="album image">
 			</div>
 			<!-- /end album thumbnail -->

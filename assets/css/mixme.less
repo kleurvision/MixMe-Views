@@ -1608,6 +1608,9 @@ tbody > tr:last-child{
 	right: 0;
 	z-index: 1;
 	padding: 10px;
+	>a{
+		text-decoration: none;
+	}
 }
 
 .profile_icons{
@@ -1615,6 +1618,25 @@ tbody > tr:last-child{
 	font-size: 30px;
 	margin-right: 10px;
 }
+
+.profile_icons:hover{
+	color: #01aef0;
+}
+
+.of_the_day{
+	width: 170px;
+	margin: 20px auto;
+	border-bottom: solid 1px #444;
+	>h4{
+		color: #fff;
+		text-align: center;
+	}
+}
+
+.of_the_day:last-child{
+	border-bottom: none;
+}
+
 // Responsive
 ////////////////////////////////////////////////////////////
 
