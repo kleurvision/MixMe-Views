@@ -613,6 +613,8 @@ img{
 	-moz-border-radius: 5px;
 	-webkit-border-radius: 5px;
 	border-radius: 5px;
+	overflow: hidden;
+	height: 59px;
 }
 
 .profile_post_input_wrapper input{
@@ -634,9 +636,20 @@ img{
 	margin-bottom: 10px;
 }
 
-.profile_navigation{
-	
+.profile_navigation a{
+	color: rgba(255, 255, 255, 0.5);
 }
+
+.admin_sidebar_container ul{
+	margin-bottom: 0;
+}
+
+.profile_navigation a:hover{
+	text-decoration: none;
+	color: #428bca;
+	cursor: pointer;
+}
+
 
 .profile_navigation li{
 	background: #92278f;
@@ -684,8 +697,17 @@ img{
 }
 
 /* Icons */
-
+/*
 .profile_navigation i{
+	background: url(../img/profile_nav_icons.png) no-repeat 0 0;
+	height: 25px;
+	width: 25px;
+	display: block;
+	float: left;
+	margin: 0 10px 0 5px;
+}
+*/
+.profile_navigation_sprite{
 	background: url(../img/profile_nav_icons.png) no-repeat 0 0;
 	height: 25px;
 	width: 25px;
@@ -731,7 +753,7 @@ i.icon-mm-events{
 
 .action_activity_left{
 	padding: 0px;
-	width: 125px;
+	//width: 125px;
 }
 
 .action_activity_right{
@@ -745,7 +767,6 @@ i.icon-mm-events{
 }
 
 .action_activity_content{
-	
 }
 
 .action_activity_content h3{
@@ -761,27 +782,27 @@ i.icon-mm-events{
 }
 
 .action_activity_mixtape_wrap{
-	background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
-    border-radius: 2px 2px 2px 2px;
+	//background: none repeat scroll 0 0 rgba(0, 0, 0, 0.3);
+    //border-radius: 2px 2px 2px 2px;
     display: block;
     margin-top: 4px;
-    padding: 6px 4px;
+    //padding: 6px 4px;
     width: auto;
 }
 
 .action_activity_mixtape{
-	background: url("../img/pv2_act_mixtape.png") no-repeat scroll 0 0 transparent;
+	background: url("../img/mixtape_example.jpg") no-repeat scroll 0 0 transparent;
     color: #000000;
     cursor: pointer;
     display: inline-block;
     font-size: 12px;
     font-weight: normal;
-    height: 46px;
+    height: 70px;
+    width: 70px;
     margin-right: 5px;
     padding-top: 1px;
     text-align: center;
     vertical-align: middle;
-    width: 75px;
 }
 
 .action_activity_mixtape_content{
@@ -862,7 +883,7 @@ i.icon-mm-events{
 
 .admin_sidebar_container{
 	padding: 0px;
-	background: url(../img/admin_bkg.png) repeat #e1e1e1;
+	background: #252525;
 	border: 2px solid #000; /*Fallback */
 	border: 3px solid rgba(0,0,0,0.4);
 	background-clip: padding-box;
@@ -1128,6 +1149,56 @@ h2.admin_title{
 }
 
 /* ///////////// Band Profile - Bio //////////// */
+
+.cover-photo-wrapper{
+	height: 326px;
+	position: relative;
+	padding: 0;
+	overflow: hidden;
+}
+
+.cover-photo{
+	width: 100%;
+}
+
+.cover-play-btn{
+	font-size: 40px;
+	color: rgba(255, 255, 255, 0.2);
+	margin-left: -10px;
+	padding-right: 5px;
+}
+
+.cover-play-btn:hover{
+	color: rgba(255, 255, 255, 0.5);
+}
+
+.cover-artist-title{
+	color: rgba(255, 255, 255, 0.8);
+	margin: 0;
+	padding: 0;
+}
+
+.cover-song-title{
+	color: rgba(255, 255, 255, 0.4);
+	margin: 0;
+	padding: 0;
+}
+
+.cover-txt{
+	text-align: right;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 18px;
+	margin-right: -10px;
+	margin-top: 8px;
+}
+
+.coverphoto-bar{
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	padding: 10px;
+}
 
 .sections_header{
 	color: #92278f;
@@ -1637,6 +1708,199 @@ tbody > tr:last-child{
 	border-bottom: none;
 }
 
+.admin-tab-area{
+	padding: 13px 10px 0 0;
+	height: 50px;
+	position: relative;
+}
+
+.admin_compose_message{
+	margin-right: 15px;
+	margin-top: 2px;
+}
+
+.friends_following_icon{
+	font-size: 25px;
+	color: #a0a09f;
+	position: absolute;
+	bottom: 10px;
+}
+
+.friends_following_icon:hover{
+	text-decoration: none;
+	color: #727272;
+}
+
+.unfollow-icon{
+	right: 10px;
+}
+
+.friends_pink_txt{
+	color: #ed145b;
+	font-size: 15px;
+	margin: -2px 0 0 0;
+	font-weight: lighter;
+}
+
+.profile-image{
+	width: 100px;
+}
+
+.profile-row{
+	border-bottom: 1px dotted #858585; 
+	padding: 10px 10px 10px 0;
+}
+
+.profile-row:last-child{
+	border: none;
+}
+.profile-name{
+	padding-top: 10px;
+}
+
+.add_profile_btn{
+	margin-left: 13px;
+}
+
+.profile-headers{
+	margin: 0;
+	padding: 0;
+	color: #92278f;
+}
+.profile-header-row{
+	margin: 0 0 20px 0;
+	padding: 0;
+	color: #92278f;
+	border-bottom: 1px dotted #858585; 
+
+}
+.profile-form-label{
+	text-align: left;
+	padding-top: 6px;
+}
+
+.spacer{
+	margin-top: 40px;
+}
+
+.old-profile-img-col{
+	border-left: 1px solid #d7d7d7; 
+}
+.older-profile-thumbs{
+	max-width: 100px;
+	margin: 0 -5px;
+}
+.older-profile-thumbs:first-child{
+	margin-left: 0;
+}
+
+.old-img-row{
+	margin-bottom: 20px;
+}
+
+.profile_cover_thumb{
+	max-width: 340px;
+	border: 1px solid #777777;
+	margin-left: -30px;
+	position: relative;
+	box-shadow: 0px -3px 5px #c3c3c3;
+	-moz-box-shadow: 0px -3px 5px #c3c3c3;
+	-webkit-box-shadow: 0px -3px 5px #c3c3c3;
+}
+
+.older-cover-thumbs{
+	max-width: 150px;
+	margin: 0 -5px;
+}
+
+.older-cover-thumbs:first-child{
+	margin-left: 0;
+}
+.add_img_btn{
+
+}
+
+.profile-img-header{
+	margin: 0;
+}
+
+.mixtape-name{
+	margin-top: 0;
+}
+
+/* ///////////// Band Profile //////////// */
+
+.artist-form-label{
+	text-align: left;
+	padding-top: 6px;
+	width: 150px;
+}
+
+.band-contact-headers{
+	color: #000;
+	margin-bottom: 15px;
+}
+
+.bcontact-form-group{
+	margin-bottom: 15px;
+}
+
+.sidebar-nav-icons{
+	color: #fff;
+	font-size: 20px;
+	background: none;
+	height: 25px;
+	width: 25px;
+	display: block;
+	float: left;
+	margin: 2px 8px 0 7px;
+	text-shadow: 1px -1px rgba(0, 0, 0, .4);
+}
+
+/* ///////////// Band Profile activity //////////// */
+.activity-status{
+	padding: 15px 0;
+	border-top: 1px solid #858585;
+	border-bottom: 1px solid #858585;
+	width: 100%;
+}
+
+.activity-status>p{
+	font-size: 20px;
+	margin: 0;
+	display: inline-block;
+}
+
+.activity-username{
+	margin-top: 0;
+	margin-bottom: 5px;
+	font-size: 15px;
+}
+.activity-icons{
+	padding-top: 5px;
+	font-size: 20px;
+	color: #444;
+}
+
+.activity-icons-share{
+	padding-top: 7px;
+}
+
+.activity-icons:hover{
+	text-decoration: none;
+	color: #428bca;
+}
+
+.activity-content-titles{
+	color: #428bca;
+	font-size: 20px;
+}
+
+.mixtape-play-btn{
+	font-size: 40px;
+	color: rgba(255, 255, 255, 0.2)
+
+}
 // Responsive
 ////////////////////////////////////////////////////////////
 
@@ -1652,7 +1916,7 @@ tbody > tr:last-child{
 
 /* Medium devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-	.profile_stage_container{
+	.stage_container{
 		padding: 0 0 0 10px;
 	}	
 }
