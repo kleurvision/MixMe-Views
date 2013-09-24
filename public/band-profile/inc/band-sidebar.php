@@ -15,7 +15,7 @@
 		<a class="ajax-load" data-link='profile-music-list'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
 	</li>
 	<li class="profile_section_trigger trigger_mixtapes">
-		<i class="profile_navigation_sprite icon-mm-mixtapes"></i> Mixtapes
+		<a class="ajax-load" data-link='mixtapes'><i class="profile_navigation_sprite icon-mm-mixtapes"></i> Mixtapes</a>
 	</li>
 	<li class="profile_section_trigger trigger_bio">
 		<a class="ajax-load" data-link='bio'><i class="profile_navigation_sprite icon-mm-bio"></i> Bio</a>

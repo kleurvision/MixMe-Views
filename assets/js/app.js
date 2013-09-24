@@ -8,6 +8,24 @@ $(document).ready(function() {
 		$('#meta-1').fadeOut('fast');
 		}
 	);
+// event hover
+	$('#event-thumb').hover(
+		function () {
+		$('#meta-3').fadeIn('fast');
+		}, 
+		function () {
+		$('#meta-3').fadeOut('fast');
+		}
+	);
+// Mixtape hover
+	$('#mixtape-thumb').hover(
+		function () {
+		$('#meta-4').fadeIn('fast');
+		}, 
+		function () {
+		$('#meta-4').fadeOut('fast');
+		}
+	);
 // public profile	
 $(function() {
     $('.ajax-load').click(function() {

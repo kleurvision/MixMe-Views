@@ -1,4 +1,4 @@
-<?php include('../config.php'); ?>
+<?php include('../../config.php'); ?>
 <? include ('inc/band-statusbar.php');?>
 
 <div class="row">
@@ -21,7 +21,7 @@
 				<!-- album section -->
 				<div class="profile_album_section row">
 					<div class="album_background">
-							<img src="<?=ASSETS;?>/img/album_holder.jpg" alt="album image" class="profile_album_thumb" />
+							<img src="<?= ASSETS;?>/img/album_holder.jpg" alt="album image" class="profile_album_thumb" />
 							<h3 class="list_album_title">Album Title</h3>
 							<h4 class="list_bandname_title">Bandname</h4>
 							<p class="list_bandname_genre">Genre</p>

@@ -7,6 +7,7 @@
 			<div class="sections_header">
 				<h4 class="section_title">Events</h4>
 			</div>
+			<!--
 			<div class="profile_music_content">
 				<div class="profile_album_section row">
 					<div class="album_background">
@@ -99,6 +100,7 @@
 				</div>
 
 			</div>
+		-->
 
 		</div>
 	</div>

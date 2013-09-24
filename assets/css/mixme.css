@@ -107,11 +107,11 @@ i.icon-mm-events{background-position:-6px -166px}
 .action_activity_controls{display:inline-block;margin-left:15px;vertical-align:middle}
 .action_activity_content h3{margin:0;font-size:16px}
 .action_activity_meta{color:#9c9c9c;font-size:13px;line-height:16px;margin-top:4px}
-.action_activity_mixtape_wrap{display:block;margin-top:4px;width:auto}
-.action_activity_mixtape{background:url("../img/mixtape_example.jpg") no-repeat scroll 0 0 transparent;color:#000;cursor:pointer;display:inline-block;font-size:12px;font-weight:normal;height:70px;width:70px;margin-right:5px;padding-top:1px;text-align:center;vertical-align:middle}
+.action_activity_mixtape_wrap{display:block;margin-top:12px;width:auto}
+.action_activity_mixtape{background:url("../img/mixtape_example.jpg") no-repeat scroll 0 0 transparent;color:#000;cursor:pointer;display:inline-block;font-size:12px;font-weight:normal;height:70px;width:70px;margin-right:15px;padding-top:1px;text-align:center;vertical-align:middle}
 .action_activity_mixtape_content{display:inline-block;vertical-align:middle}
 .action_activity_mixtape_meta{color:#ff0;font-family:'lucida sans',helvetica,sans-serif;font-size:13px;margin-top:4px}
-.action_activity_photo_group{display:block;margin-top:4px}
+.action_activity_photo_group{display:block;margin:15px 0}
 .action_activity_photo{background:none repeat scroll 0 0 #ebebeb;border:1px solid #777;display:inline-block;height:129px;margin-bottom:0;margin-right:2px;overflow:hidden;padding:0;position:relative;width:129px}
 .admin_title{color:#fff;font-size:2.5em;font-weight:700;letter-spacing:-0.5px;margin:0;text-shadow:0 1px 0 #000}
 .admin_nav{margin:6px 15px 6px 0}
@@ -179,6 +179,7 @@ i.icon-mm-events{background-position:-6px -166px}
 .list_bandname_genre{margin:0;color:#777;clear:right}
 .profile_album_icons{color:#777;font-size:25px}.profile_album_icons :hover{text-decoration:none;color:#089bd3}
 .album_list_info{color:#fefe00}.album_list_info>span{margin:0 5px}
+.album_list_info>span:first-child{margin:0;color:#9c9c9c}
 .album_list_info>a{color:#fefe00}
 .album_list_info>a:hover{text-decoration:underline;color:#fefe00}
 .album_fav{position:absolute;top:10px;right:50px}
@@ -271,6 +272,32 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .activity-icons{padding-top:5px;font-size:20px;color:#444}
 .activity-icons-share{padding-top:7px}
 .activity-icons:hover{text-decoration:none;color:#428bca}
-.activity-content-titles{color:#428bca;font-size:20px}
-.mixtape-play-btn{font-size:40px;color:rgba(255,255,255,0.2)}
+.activity-content-titles{color:#428bca;font-size:18px;margin:0}
+.mixtape-play-btn{font-size:35px;display:inline-block;margin:1px 0;color:rgba(255,255,255,0.2)}
+.mixtape-play-btn:hover{color:rgba(255,255,255,0.5)}
+.genre-txt{margin:0;padding:0}
+.action-event-wrapper{background:#2a2a2a;border:1px solid #777;margin:10px 0}
+.action-event-photo{border-top:none;border-bottom:none;border-left:none}
+.activity-event-time{color:#fff;margin:0;font-size:16px}
+.activity-event-location{color:#9c9c9c;margin:0}
+.activity-event-txt{color:#9c9c9c;margin:0}
+.action-event-info-wrapper{padding:15px;height:129px;margin-left:129px}
+.action-music-info-wrapper{height:129px;padding:0 15px;margin-left:129px;margin-top:10px;margin-bottom:10px}
+.activity-track-number{color:#9c9c9c;margin:0;padding:0}
+.music-play-btn{font-size:35px;display:inline-block;margin:10px 0;color:rgba(255,255,255,0.2)}
+.music-play-btn:hover{color:rgba(255,255,255,0.5)}
+.activity-event-thumb-wrapper{position:relative;width:129px}
+.event_meta{position:absolute;background:rgba(236,236,236,0.9);display:none;width:100%;height:100%;top:0;left:0;padding:25px 20px}
+.event_txt_month{font-size:30px;line-height:30px;color:#ed145b;margin:0;padding:0;font-weight:bold;text-align:center}
+.event_txt_day{font-size:58px;line-height:50px;color:#ed145b;margin:0;padding:0;text-align:center;font-weight:100;letter-spacing:2px}
+.acivity-music-status{margin:10px 0}
+.mixtape-section{height:90px}
+.mixtape-info{padding:0 15px}
+.mixtape-titles{color:#428bca;font-size:18px;margin:0}
+.mixtape-img{border:1px solid #777}
+.mixtape-row{padding:20px 0;border-top:1px solid #333;border-bottom:1px solid #101010}
+.mixtape-row:nth-child(2){border-top:none}
+.mixtape-meta-wrapper{height:90px;width:90px}
+.mixtape-meta{position:absolute;background:rgba(236,236,236,0.9);display:none;height:90px;width:90px;top:0;left:0;margin-left:15px;padding:19px 20px}
+.mixtape-meta-play{font-size:55px;color:#a8a8a8}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff} .album_background{height:100%} .profile_album_thumb{float:none;clear:right}}
