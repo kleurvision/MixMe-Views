@@ -1,4 +1,4 @@
-<?php include('../config.php'); ?>
+<?php include('../../config.php'); ?>
 <? include ('inc/band-statusbar.php');?>
 
 <div class="row">

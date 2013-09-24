@@ -50,6 +50,13 @@ $(function() {
         return false;
     });
 });
+$(function() {
+    $('.ajax-load').click(function() {
+        var link = this.getAttribute('data-link');
+        $(".admin_stage_container").load("/public/user-profile/user-"+link+".php");
+        return false;
+    });
+});
 
 	$('.profile_post_input_wrapper').hover(
 		function () {

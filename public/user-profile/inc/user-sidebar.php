@@ -8,10 +8,10 @@
 </div>
 <ul class="profile_navigation list-unstyled">
 	<li class="profile_section_trigger trigger_activity">
-		<a class="ajax-load" data-link='stage'><i class="profile_navigation_sprite icon-mm-activity"></i> Activity</a>
+		<a class="ajax-load" data-link='activity'><i class="profile_navigation_sprite icon-mm-activity"></i> Activity</a>
 	</li>
 	<li class="profile_section_trigger trigger_music">
-		<a class="ajax-load" data-link='profile-music-list'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
+		<a class="ajax-load" data-link='music-grid'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
 	</li>
 	<li class="profile_section_trigger trigger_mixtapes">
 		<a class="ajax-load" data-link='mixtapes'><i class="profile_navigation_sprite icon-mm-mixtapes"></i> Mixtapes</a>
