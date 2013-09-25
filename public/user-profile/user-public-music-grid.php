@@ -1,5 +1,5 @@
 <?php include('../../config.php'); ?>
-<? include ('inc/band-statusbar.php');?>
+<? include ('inc/user-statusbar.php');?>
 
 <div class="row">
 	<div class="col-md-12">

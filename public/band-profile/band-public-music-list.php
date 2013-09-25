@@ -8,11 +8,11 @@
 				<h4 class="section_title">Music</h4>
 				<div class="view_btns">
 					<div class="album_view_grid">
-						<a href="#"><i class="icon-th pull-right"></i></a>
+						<a class="ajax-load" data-link='public-music-grid'><i class="icon-th pull-right"></i></a>
 					</div>
 
 					<div class="album_view_list">
-						<a href="#"><i class="icon-th-list pull-right"></i></a>
+						<a class="ajax-load" data-link='public-music-list'><i class="icon-th-list pull-right"></i></a>
 					</div>
 				</div>
 			</div>

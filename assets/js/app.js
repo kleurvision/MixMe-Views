@@ -26,11 +26,19 @@ $(document).ready(function() {
 		$('#meta-4').fadeOut('fast');
 		}
 	);
-// public profile	
+// public  band profile	
 $(function() {
     $('.ajax-load').click(function() {
         var link = this.getAttribute('data-link');
-        $(".profile_stage_container").load("/public/band-profile/band-"+link+".php");
+        $(".band_profile_stage_container").load("/public/band-profile/band-"+link+".php");
+        return false;
+    });
+});
+// public user profile
+$(function() {
+    $('.ajax-load').click(function() {
+        var link = this.getAttribute('data-link');
+        $(".user-profile_stage_container").load("/public/user-profile/user-"+link+".php");
         return false;
     });
 });
@@ -38,7 +46,7 @@ $(function() {
 $(function() {
     $('.ajax-load').click(function() {
         var link = this.getAttribute('data-link');
-        $(".admin_stage_container").load("/admin/band-profile/band-"+link+".php");
+        $(".admin_band_stage_container").load("/admin/band-profile/band-"+link+".php");
         return false;
     });
 });
@@ -46,14 +54,7 @@ $(function() {
 $(function() {
     $('.ajax-load').click(function() {
         var link = this.getAttribute('data-link');
-        $(".admin_stage_container").load("/admin/user-profile/user-"+link+".php");
-        return false;
-    });
-});
-$(function() {
-    $('.ajax-load').click(function() {
-        var link = this.getAttribute('data-link');
-        $(".admin_stage_container").load("/public/user-profile/user-"+link+".php");
+        $(".admin_user_stage_container").load("/admin/user-profile/user-"+link+".php");
         return false;
     });
 });

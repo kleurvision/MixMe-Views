@@ -278,7 +278,7 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .genre-txt{margin:0;padding:0}
 .action-event-wrapper{background:#2a2a2a;border:1px solid #777;margin:10px 0}
 .action-event-photo{border-top:none;border-bottom:none;border-left:none}
-.activity-event-time{color:#fff;margin:0;font-size:16px}
+.activity-event-time{color:#fff;margin:0;font-size:14px}
 .activity-event-location{color:#9c9c9c;margin:0}
 .activity-event-txt{color:#9c9c9c;margin:0}
 .action-event-info-wrapper{padding:15px;height:129px;margin-left:129px}
@@ -291,6 +291,8 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .event_txt_month{font-size:30px;line-height:30px;color:#ed145b;margin:0;padding:0;font-weight:bold;text-align:center}
 .event_txt_day{font-size:58px;line-height:50px;color:#ed145b;margin:0;padding:0;text-align:center;font-weight:100;letter-spacing:2px}
 .acivity-music-status{margin:10px 0}
+.event-icon-wrapper{margin-top:15px}
+.event-category-txt{display:inline-block;margin-top:5px}
 .mixtape-section{height:90px}
 .mixtape-info{padding:0 15px}
 .mixtape-titles{color:#428bca;font-size:18px;margin:0}
@@ -300,4 +302,12 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .mixtape-meta-wrapper{height:90px;width:90px}
 .mixtape-meta{position:absolute;background:rgba(236,236,236,0.9);display:none;height:90px;width:90px;top:0;left:0;margin-left:15px;padding:19px 20px}
 .mixtape-meta-play{font-size:55px;color:#a8a8a8}
+.music-grid-play-btn{font-size:40px;color:#444;position:absolute;bottom:5px}
+.music-grid-play-btn:hover{text-decoration:none;color:rgba(68,68,68,0.5)}
+.music-grid-fav{position:absolute;bottom:7px;right:35px;font-size:25px}
+.music-grid-share{position:absolute;bottom:5px;right:5px;font-size:25px}
+.search-bg{background:#fff;padding:20px}
+.search-thumbs{border:1px solid #666}
+.search-title-txt{color:#428bca;font-size:13px;font-weight:bold;padding:5px 5px 0 50px}
+.search-grey-txt{color:#777;font-size:12px}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff} .album_background{height:100%} .profile_album_thumb{float:none;clear:right}}

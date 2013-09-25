@@ -1,3 +1,4 @@
+<?php include('../../config.php'); ?>
 <? include ('inc/user-statusbar.php');?>
 
 <div class="row">

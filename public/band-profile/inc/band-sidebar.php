@@ -9,19 +9,19 @@
 </div>
 <ul class="profile_navigation list-unstyled">
 	<li class="profile_section_trigger trigger_activity">
-		<a class="ajax-load" data-link='activity'><i class="profile_navigation_sprite icon-mm-activity"></i> Activity</a>
+		<a class="ajax-load" data-link='public-activity'><i class="profile_navigation_sprite icon-mm-activity"></i> Activity</a>
 	</li>
 	<li class="profile_section_trigger trigger_music">
-		<a class="ajax-load" data-link='profile-music-list'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
+		<a class="ajax-load" data-link='public-music-grid'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
 	</li>
 	<li class="profile_section_trigger trigger_mixtapes">
-		<a class="ajax-load" data-link='mixtapes'><i class="profile_navigation_sprite icon-mm-mixtapes"></i> Mixtapes</a>
+		<a class="ajax-load" data-link='public-mixtapes'><i class="profile_navigation_sprite icon-mm-mixtapes"></i> Mixtapes</a>
 	</li>
 	<li class="profile_section_trigger trigger_bio">
-		<a class="ajax-load" data-link='bio'><i class="profile_navigation_sprite icon-mm-bio"></i> Bio</a>
+		<a class="ajax-load" data-link='public-bio'><i class="profile_navigation_sprite icon-mm-bio"></i> Bio</a>
 	</li>
 	<li class="profile_section_trigger trigger_events">
-		<a class="ajax-load" data-link='profile-event'><i class="profile_navigation_sprite icon-mm-events"></i> Events</a>
+		<a class="ajax-load" data-link='public-event'><i class="profile_navigation_sprite icon-mm-events"></i> Events</a>
 	</li>
 </ul>
 <div class="profile_info global_info">

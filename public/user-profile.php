@@ -10,9 +10,9 @@ include('../global/header.php');?>
 		<div class="profile_sidebar_container col-md-3">
 			<? include ('user-profile/inc/user-sidebar.php');?>
 		</div>
-		<div class="profile_stage_container col-md-9">
+		<div class="user-profile_stage_container col-md-9">
 			
-			<? include ('user-profile/user-activity.php');?>
+			<? include ('user-profile/user-public-activity.php');?>
 			
 		</div>
 	</div>

@@ -15,7 +15,7 @@ include('../config.php');?>
 					</div>
 					<div class="row profile-row">
 						<div class="col-md-2">
-							<img src="<?=ASSETS;?>/img/mixtape_tape.png" alt="album image" class="pull-right">
+							<img src="<?=ASSETS;?>/img/mixtape_example.jpg" alt="album image" class="pull-right">
 						</div>
 						<div class="col-md-10">
 							<h4 class="mixtape-name">Super Awesome Mixtape 1</h4>
@@ -31,7 +31,7 @@ include('../config.php');?>
 					<!-- 2nd profile row -->
 					<div class="row profile-row">
 						<div class="col-md-2">
-							<img src="<?=ASSETS;?>/img/mixtape_tape.png" alt="album image" class="pull-right">
+							<img src="<?=ASSETS;?>/img/mixtape_example.jpg" alt="album image" class="pull-right">
 						</div>
 						<div class="col-md-10">
 							<h4 class="mixtape-name">Super Awesome Mixtape 2</h4>
@@ -47,7 +47,7 @@ include('../config.php');?>
 					<!-- 3rd profile row -->
 					<div class="row profile-row">
 						<div class="col-md-2">
-							<img src="<?=ASSETS;?>/img/mixtape_tape.png" alt="album image" class="pull-right">
+							<img src="<?=ASSETS;?>/img/mixtape_example.jpg" alt="album image" class="pull-right">
 						</div>
 						<div class="col-md-10">
 							<h4 class="mixtape-name">Super Awesome Mixtape 3</h4>
