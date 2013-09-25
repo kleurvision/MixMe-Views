@@ -12,7 +12,7 @@ include('../global/header.php');?>
 			<? include ('band-profile/inc/band-sidebar.php');?>
 		</div>
 		<div class="band_profile_stage_container col-md-9">
-			<? include ('band-profile/band-public-music-grid.php');?>
+			<? include ('band-profile/band-public-activity.php');?>
 			
 		</div>
 	</div>

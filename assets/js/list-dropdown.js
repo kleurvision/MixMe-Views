@@ -39,6 +39,16 @@ $('#thumb-1').click(function() {
   });
 });
 
+/*////////////// edit band profile dropdown ////////////////*/
+
+$('#edit-band-btn').click(function() {
+  $('.dropdown-wrapper').slideToggle( 100, function() {
+
+  });
+    
+});
+
+
 /*////////////// User messages tabs ////////////////*/
 $('#inbox a').click(function (e) {
   e.preventDefault()
