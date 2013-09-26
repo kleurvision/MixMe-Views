@@ -17,8 +17,8 @@ include('../config.php');?>
 					<a href="#friends-following" data-toggle="tab">Friends</a>
 				</li>
 
-				<div class="btn admin_compose_message global_action_btn gradient pull-right">
-					<i class="icon-search"></i> Find Friends
+				<div class="btn admin_compose_message global_action_btn gradient pull-right" data-toggle="modal" data-target="#create-fangroup-modal">
+					<i class="icon-cog"></i> Create a Fangroup
 				</div>
 			</ul>
 				<div class="admin_stage_content following_stage">
@@ -230,3 +230,74 @@ include('../config.php');?>
 	</div>
 </div>
 <!-- / End Content -->
+
+<!-- targeting map modal -->
+	<div class="modal fade" id="create-fangroup-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+	    <div class="modal-dialog target-dialog">
+	        <div class="modal-content">
+	            <div class="admin_stage_head">
+	                
+						<h2 class="admin_stage_title stage_title">Fan Targeting</h2>
+					
+	        	</div>
+	        	<div class="fan_target_content">
+	        		<div class="row">
+		        		<div class="col-md-4"> 
+			        		<form class="messages_target_form">
+			        			<div class="form-group">
+									<label for="groupname">group name</label>
+									<input type="text" class="form-control" id="groupname">
+								</div>
+									<div class="row"> 
+										<div class="col-md-6">
+    										<div class="form-group">
+    											<label for="gender">gender</label>
+    											<input type="text" class="form-control" id="gender">
+    										</div>
+										</div>
+
+										<div class="col-md-6">
+											<div class="form-group age_input">
+    											<label for="age">age</label>
+    											<input type="text" class="form-control" id="age">
+											</div>
+										</div>
+									</div>
+								
+									<div class="form-group">
+										<label for="country">country</label>
+										<input type="text" class="form-control" id="country">
+									</div>
+
+									<div class="form-group">
+										<label for="searcharea">search area</label>
+										<input type="text" class="form-control" id="searcharea">
+									</div>
+
+									<div class="form-group">
+										<label for="range">range (miles)</label>
+										<input type="text" class="form-control" id="range">
+									</div>
+
+									<div class="form-group">
+										<div class="btn admin_compose_message global_action_btn btn-block gradient" data-dismiss="modal">
+											Save Fangroup
+										</div>
+									</div>
+									
+			        		</form>
+
+			        		
+		        		</div> <!-- end column -->
+						<div class="col-md-8 targeting_map_column"> 
+			        		
+		        		</div>
+		        		
+		        	</div> <!-- end row -->
+		        	<div class="admin_stage_bottom">
+	          		
+	        		</div>
+	        	</div>
+	      	</div><!-- /.modal-content -->
+	    </div><!-- /.modal-dialog -->
+	</div><!-- /.modal -->

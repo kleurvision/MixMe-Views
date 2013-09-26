@@ -23,6 +23,15 @@
 					Aenean mauris erat, pharetra nec blandit nec, ullamcorper sed velit. Nunc luctus metus quis urna convallis congue. Curabitur vel sem tincidunt justo sodales facilisis in suscipit massa. Mauris vitae vulputate est, at hendrerit ante. Sed dignissim tempus mauris at pretium. Integer gravida sit amet nunc vel lacinia. Ut gravida dapibus nisi eget ultricies. In et vestibulum nisl. Suspendisse scelerisque cursus eros vitae consequat. Nullam malesuada eros nisi, vel aliquet est pharetra quis. Pellentesque consequat adipiscing sem lacinia feugiat. Donec lacinia nibh lorem, id malesuada diam commodo ut. Nam malesuada nisi mi, a ornare erat vehicula non. Duis id orci posuere, imperdiet sapien tincidunt, pretium orci.
 				</p>
 
+				<div class="social-link-wrapper row">
+					<div class="bio-social-link-header">
+						<h4>Social Links</h4>
+					</div>
+					<div class="social-link-box">
+						<a href="#"><i class="icon-twitter bio-social-links"></i></a><a href="#"><i class="icon-facebook bio-social-links"></i></a><a href="#"><i class="icon-google-plus bio-social-links"></i></a><a href="#"><i class="icon-linkedin bio-social-links"></i></a>
+					</div>
+				</div>
+
 			</div>
 			
 		</div>

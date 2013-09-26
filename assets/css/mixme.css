@@ -319,4 +319,21 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .dropdown-title{font-size:15px;color:#717171;margin-top:0;padding-top:0}
 .dropdown-btn{background:#428bca;color:#fff}
 .dropdown-btn:hover{background:#3776ac;color:#fff}
+.edit-profile-row{margin-bottom:20px}
+.edit-profile-row:last-child{margin-bottom:0}
+.event-photo-column{padding:20px}
+.add-event-thumb{width:100%;margin-bottom:15px}
+.change-image-btn{width:100%;margin-bottom:20px}
+.add-event-row{padding:20px}
+.add-track-row{padding:5px 0;background:#fff}
+.add-track-row:nth-child(odd){background:#c1c1c1}
+.add-track-wrapper{padding:15px}
+.link-user-content{padding:20px}
+.search-results-name{margin-top:0}
+.modal-save-cancel{margin:6px 15px 0 0}
+.social-link-wrapper{padding:15px}
+.bio-social-link-header{color:#92278f}
+.bio-social-links{color:#989d99;font-size:30px;margin-right:15px}
+.bio-social-links:hover{text-decoration:none;color:#089ad3}
+.social-link-box{border:solid 1px #333;padding:15px;background:#232323}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff} .album_background{height:100%} .profile_album_thumb{float:none;clear:right}}
