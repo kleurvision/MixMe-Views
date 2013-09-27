@@ -45,6 +45,31 @@
 							</div>
 						</div>
 						<? include ('inc/activity_meta.php'); ?>
+
+						<div class="user-activity-comment row">
+							<div class="activity-comment-avatar-wrapper pull-left">
+								<img src="<?=ASSETS;?>/img/temp_avatar.jpg" class="comment-user-avatar pull-left">
+								<img src="<?=ASSETS;?>/img/user-comment-arrow.png" class="comment-user-arrow pull-left">
+							</div>
+
+							<div class="activity-comment-txt-wrapper pull-left">
+								<p class="action_activity_meta activity-username"><a href="">Elaine Garcia &nbsp;</a> This mixtape is awesome Elaine!</p>
+								<p class="action_activity_meta pull-left activity-comment-meta">45 minutes ago&nbsp;&middot;&nbsp;<a href="">reply</a></p> 
+							</div>
+						</div>
+
+						<div class="user-activity-comment row">
+						<div class="activity-comment-avatar-wrapper pull-left">
+							<img src="<?=ASSETS;?>/img/temp_avatar.jpg" class="comment-user-avatar pull-left">
+							<img src="<?=ASSETS;?>/img/user-comment-arrow.png" class="comment-user-arrow pull-left">
+						</div>
+
+						<div class="activity-comment-txt-wrapper pull-left">
+							<p class="action_activity_meta activity-username"><a href="">Elaine Garcia &nbsp;</a> I agree this mixtape is both dubious and outrageous, a real headbanger with quite the catchy tune if I do say so!</p>
+							<p class="action_activity_meta pull-left activity-comment-meta">45 minutes ago&nbsp;&middot;&nbsp;<a href="">reply</a></p> 
+						</div>
+					</div>
+
 					</div>
 				</div>
 			</li>

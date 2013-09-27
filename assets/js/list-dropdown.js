@@ -161,5 +161,15 @@ $('#band-trashed a').click(function (e) {
   $(this).tab('show')
 })
 
+/*////////////// Music View tabs ////////////////*/
+$('#music-list-view-content a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
+
+$('#music-grid-view-content a').click(function (e) {
+  e.preventDefault()
+  $(this).tab('show')
+})
 
 

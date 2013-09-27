@@ -74,7 +74,63 @@
 			
 			</div>
 		</div>
-		<div class="row">
+		<div class="row playlist-row">
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder2.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder2.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder2.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder2.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<div class="playlist-album-thumb-wrapper">
+				<img src="<?=ASSETS;?>/img/playlist_album_holder.jpg" class="playlist-album-thumb">
+				<p class="playlist-bandname">Bandname</p>
+				<p class="playlist-songname">Songname</p>
+			</div>
+
+			<!--
 			<div class="col-xs-12">
 				<div class="row">
 					<div class="col-xs-6">Track Name</div>
@@ -82,6 +138,7 @@
 					<div class="col-xs-1">X</div>
 				</div>
 			</div>
+			-->
 		</div>
 		
 	</div>

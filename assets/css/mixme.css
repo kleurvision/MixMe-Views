@@ -68,7 +68,7 @@ img{max-width:100%}
 .player-current-track-name-time{font-family:'Quattrocento Sans',sans-serif;font-size:13px}
 .player-track-cue{background:none repeat scroll 0 0 #dcdcdc;border:1px solid #c3c3c3;float:left;height:50px;margin:11px 0 0;overflow:hidden;white-space:nowrap;width:100%}
 .player-track-cue ul{padding:0 3px}
-.player-track-manage-wrap{width:100%;background:#000;background:rgba(0,0,0,0.9);display:none;position:absolute;left:0;top:-372px;height:360px;color:#fff}
+.player-track-manage-wrap{width:100%;background:#000;background:rgba(0,0,0,0.9);display:none;position:absolute;left:0;top:-390px;height:380px;color:#fff}
 .player-album-add{background-image:url("../img/player_playlist_right_gradient.png");background-position:right center;background-repeat:no-repeat;border-bottom:1px solid #c3c3c3;border-right:1px solid #c3c3c3;border-top:1px solid #c3c3c3;cursor:pointer;display:block;height:50px;margin:4px 0 0 4px;padding:4px 5px;position:absolute;right:15px;text-align:right;top:7px;width:80px}
 .profile_controls .btn-group .btn{border:none;border-width:2px 0;border-color:rgba(0,0,0,0.3);border-style:solid;background-clip:padding-box}
 .profile_controls .btn-group .btn:first-child{border-width:2px 0 2px 2px}
@@ -336,4 +336,18 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .bio-social-links{color:#989d99;font-size:30px;margin-right:15px}
 .bio-social-links:hover{text-decoration:none;color:#089ad3}
 .social-link-box{border:solid 1px #333;padding:15px;background:#232323}
+.music-view-icons{color:#fff}
+.user-activity-comment{background:#2d2d2d;padding:20px;margin-left:15px;margin-bottom:5px}
+.comment-user-avatar{border:1px solid #4a4a4a}
+.action-meta-wrapper{display:block;padding:0 15px}
+.comment-user-arrow{margin-top:15px;margin-right:16px}
+.activity-comment-avatar-wrapper{width:8%;height:100%}
+.activity-comment-txt-wrapper{width:92%}
+.activity-comment-meta{margin-bottom:0}
+.activity-username{clear:right;color:#dfdfdf}
+.playlist-row{margin:10px 0 30px 15px}
+.playlist-album-thumb-wrapper{margin-right:15px;width:148px;float:left}
+.playlist-album-thumb{margin-bottom:5px}
+.playlist-bandname{margin:0;padding:0;color:#428bca}
+.playlist-songname{margin:0;padding:0;font-size:12px;color:#989a97}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff} .album_background{height:100%} .profile_album_thumb{float:none;clear:right}}

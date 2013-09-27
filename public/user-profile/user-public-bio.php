@@ -25,7 +25,7 @@
 
 				<div class="social-link-wrapper row">
 					<div class="bio-social-link-header">
-						<h4>Social Links</h4>
+						<h4>Connect</h4>
 					</div>
 					<div class="social-link-box">
 						<a href="#"><i class="icon-twitter bio-social-links"></i></a><a href="#"><i class="icon-facebook bio-social-links"></i></a><a href="#"><i class="icon-google-plus bio-social-links"></i></a><a href="#"><i class="icon-linkedin bio-social-links"></i></a>

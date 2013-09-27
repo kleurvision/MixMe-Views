@@ -12,7 +12,7 @@
 		<a class="ajax-load" data-link='public-activity'><i class="profile_navigation_sprite icon-mm-activity"></i> Activity</a>
 	</li>
 	<li class="profile_section_trigger trigger_music">
-		<a class="ajax-load" data-link='public-music-grid'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
+		<a class="ajax-load" data-link='public-music-list'><i class="profile_navigation_sprite icon-mm-music"></i> Music</a>
 	</li>
 	<li class="profile_section_trigger trigger_mixtapes">
 		<a class="ajax-load" data-link='public-mixtapes'><i class="profile_navigation_sprite icon-mm-mixtapes"></i> Mixtapes</a>
