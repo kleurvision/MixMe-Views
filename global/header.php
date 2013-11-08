@@ -53,7 +53,32 @@
 							</li>
 							<li class="global_userNav pull-right">
 								<div class="dropdown">
-									<a href="#" class="global_userNav_name">Elaine Garcia<span class="caret"></span></a>
+									<a href="#" class="global_userNav_name" id="header-user-dropdown">Elaine Garcia<span class="caret"></span></a>
+								</div>
+
+								<div id="header-dropdown-wrapper">
+									<img src="<?=ASSETS;?>/img/dropdown_arrow.png" class="dropdown-box-arrow">
+									<div class="edit-dropdown">
+										<div class="row edit-profile-row">
+											<div class="col-md-4">
+												<img src="<?=ASSETS;?>/img/edit_band_dropdown_example.jpg" class="dropdown-img">
+											</div>
+											<div class="col-md-8">
+												<p class="dropdown-title">Breaking Even</p>
+												<button type="button" class="btn dropdown-btn">Edit Profile</button>
+											</div>
+										</div>
+
+										<div class="row edit-profile-row">
+											<div class="col-md-4">
+												<img src="<?=ASSETS;?>/img/band_temp.jpg" class="dropdown-img">
+											</div>
+											<div class="col-md-8">
+												<p class="dropdown-title">Dance Gavin Dance</p>
+												<button type="button" class="btn dropdown-btn">Edit Profile</button>
+											</div>
+										</div>
+									</div>
 								</div>
 							</li>
 						</ul>
@@ -81,6 +106,8 @@
 					
 					</li>
 				</ul>
+
+				
 			</nav>
 
 		</nav>

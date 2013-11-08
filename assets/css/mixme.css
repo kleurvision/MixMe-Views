@@ -25,6 +25,7 @@ img{max-width:100%}
 .global_userNav_name .caret{border-top:4px solid #fff}
 .list-inline li.global_userAvatar{padding:0}
 .list-inline li.global_user_actions{padding:0}
+#header-dropdown-wrapper{position:absolute;z-index:20;right:-30px;display:none}
 .global_userActions{float:right;height:50px;list-style:none outside none}
 .global_userActions .global_action{background:none repeat scroll 0 0 #000;float:left;margin-left:2px;width:49px;padding:0}
 .global_userActions .global_action a{background:url("../img/notification_icons2.png") no-repeat scroll 0 0 transparent;display:block;height:33px;margin:8px;text-indent:-9000px;width:33px}
