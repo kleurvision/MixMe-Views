@@ -29,6 +29,8 @@ $(function() {
 		  });    
 		});
 
+		   
+
 				/*////////////// artists following hover //////////////*/
 		$(document).ready(function() {
 			$('#thumb-1').hover(
@@ -195,5 +197,14 @@ $(document).ready(function() {
 });
 
 /*////////////// Band Profile Sidebar //////////////*/
+
+
+/*////////////// edit header user dropdown ////////////////*/
+$('#header-user-dropdown').click(function() { 
+  $('#header-dropdown-wrapper').slideToggle( 100, function() {
+
+  }); 
+});
+
 
 

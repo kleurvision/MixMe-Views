@@ -167,6 +167,12 @@ img {
 .list-inline li.global_user_actions {
   padding: 0px;
 }
+#header-dropdown-wrapper {
+  position: absolute;
+  z-index: 20;
+  right: -30px;
+  display: none;
+}
 .global_userActions {
   float: right;
   height: 50px;

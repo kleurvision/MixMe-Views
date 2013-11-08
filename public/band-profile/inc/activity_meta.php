@@ -5,7 +5,16 @@
 </div>
 <div class="row">
 	<div id="reply<?=$r;?>" class="collapse reply_stage">
-		Reply
+		<div class="row">
+			<div class="col-md-1 action_activity_left">
+				<div class="global_userAvatar">
+					<a><img src="<?=ASSETS;?>/img/temp_avatar.jpg"></a>
+				</div>
+			</div>
+			<div class="col-md-11 action_activity_right">
+				Reply
+			</div>
+		</div>
 	</div>
 </div>
 <? $r++;?>
