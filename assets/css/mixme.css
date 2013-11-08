@@ -678,9 +678,23 @@ i.icon-mm-events {
 .action_activity_content .row {
   margin: 0px;
 }
+.action_activity_content .row .user-reply {
+  margin: 5px 0;
+  padding: 0 0 5px 0;
+  border-bottom: 1px solid #333;
+  color: #aaa;
+}
 .action_activity_content .reply_stage {
   padding: 10px;
   background: #333;
+}
+.action_activity_content .reply_stage input.form-control {
+  border: 0px;
+  background: none;
+  border-radius: 0px;
+}
+.action_activity_content .reply_stage input.input-lg {
+  border-radius: 0px!important;
 }
 .action_activity_content h3 {
   margin: 0px;
