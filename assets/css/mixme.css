@@ -167,16 +167,21 @@ img {
 .list-inline li.global_user_actions {
   padding: 0px;
 }
-#header-dropdown-wrapper {
+.header-dropdown-wrapper {
   position: absolute;
   z-index: 20;
   right: -30px;
   display: none;
+  top: 25px;
 }
 .global_userActions {
   float: right;
   height: 50px;
   list-style: none outside none;
+}
+.global_userActions .header-dropdown-wrapper {
+  right: -12px;
+  top: 40px;
 }
 .global_userActions .global_action {
   background: none repeat scroll 0 0 #000000;
@@ -184,6 +189,7 @@ img {
   margin-left: 2px;
   width: 49px;
   padding: 0px;
+  position: relative;
 }
 .global_userActions .global_action a {
   background: url("../img/notification_icons2.png") no-repeat scroll 0 0 transparent;
@@ -212,6 +218,41 @@ img {
   margin: 10px 0;
   padding: 0 10px;
   position: relative;
+}
+#header-messages-dropdown-wrapper .edit-dropdown {
+  width: 292px;
+  background: #fff;
+  padding: 10px;
+  position: relative;
+  left: -15px;
+}
+#global_messageContent {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background: #e1e1e1;
+  padding: 10px;
+}
+#global_messageContent .row {
+  margin: 0px 0px 8px;
+}
+#global_messageContent .global_messageUserName {
+  color: #00AAEE;
+  font-family: lucida grande, lucida san-serif, arial, sans-serif;
+  font-size: 11px;
+  font-weight: bold;
+}
+#global_messageContent .global_message {
+  color: #444444;
+  font-family: lucida Grande, lucida sans-serif, sans-serif;
+  font-size: 12px;
+  margin: 5px 0;
+}
+#global_messageContent .global_dateTime {
+  color: #666666;
+  font-family: lucida grande, lucida san-serif, arial, sans-serif;
+  font-size: 10px;
+  margin: 5px 0;
 }
 .global_favorite {
   background-image: url("../img/track_list_icons.png");

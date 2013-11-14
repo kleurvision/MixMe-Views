@@ -56,7 +56,7 @@
 									<a href="#" class="global_userNav_name" id="header-user-dropdown">Elaine Garcia<span class="caret"></span></a>
 								</div>
 
-								<div id="header-dropdown-wrapper">
+								<div id="header-user-dropdown-wrapper" class="header-dropdown-wrapper">
 									<img src="<?=ASSETS;?>/img/dropdown_arrow.png" class="dropdown-box-arrow">
 									<div class="edit-dropdown">
 										<div class="row edit-profile-row">
@@ -94,10 +94,80 @@
 								<a data-placement="bottom" title="" rel="tooltip" class="global_notifyMixtapes" data-original-title="Mixtapes">Mixtapes</a>
 							</li>
 							<li class="global_action">
-								<a data-placement="bottom" title="" rel="tooltip" class="global_notifyFriends" data-original-title="Friends">Friends</a>
+								<a id="header-friend-dropdown" data-placement="bottom" title="" rel="tooltip" class="global_notifyFriends" data-original-title="Friends">Friends</a>
+								<div id="header-friend-dropdown-wrapper" class="header-dropdown-wrapper">
+									<img src="<?=ASSETS;?>/img/dropdown_arrow.png" class="dropdown-box-arrow">
+									<div class="edit-dropdown">
+										<div class="row edit-profile-row">
+											<div class="col-md-4">
+												<img src="<?=ASSETS;?>/img/edit_band_dropdown_example.jpg" class="dropdown-img">
+											</div>
+											<div class="col-md-8">
+												<p class="dropdown-title">Breaking Even</p>
+												<button type="button" class="btn dropdown-btn">Edit Profile</button>
+											</div>
+										</div>
+
+										<div class="row edit-profile-row">
+											<div class="col-md-4">
+												<img src="<?=ASSETS;?>/img/band_temp.jpg" class="dropdown-img">
+											</div>
+											<div class="col-md-8">
+												<p class="dropdown-title">Dance Gavin Dance</p>
+												<button type="button" class="btn dropdown-btn">Edit Profile</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								
 							</li>
 							<li class="global_action">
-								<a data-placement="bottom" title="" rel="tooltip" class="global_notifyMessages" data-original-title="Messages">Messages</a>
+								<a id="header-messages-dropdown" data-placement="bottom" title="" rel="tooltip" class="global_notifyMessages" data-original-title="Messages">Messages</a>
+								
+								<div id="header-messages-dropdown-wrapper" class="header-dropdown-wrapper">
+									<img src="<?=ASSETS;?>/img/dropdown_arrow.png" class="dropdown-box-arrow">
+									<div class="edit-dropdown">
+										<ul id="global_messageContent">
+							         		<li class="row">
+												<div class="global_userAvatar col-md-2">&nbsp;</div>
+												<div class="global_messageDetails col-md-10">
+													<span class="global_messageUserName">User Name or Band Name</span>
+													<div class="global_message">
+														<p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit...</p>
+													</div>
+													<span class="global_dateTime">9:15am | Monday, September 24</span>
+												</div>
+											</li>
+											
+											<li class="row">
+												<div class="global_userAvatar col-md-2">&nbsp;</div>
+												<div class="global_messageDetails col-md-10">
+													<span class="global_messageUserName">User Name or Band Name</span>
+													<div class="global_message">
+														<p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit...</p>
+													</div>
+													<span class="global_dateTime">9:15am | Monday, September 24</span>
+												</div>
+											</li>
+											
+											<li class="row">
+												<div class="global_userAvatar col-md-2">&nbsp;</div>
+												<div class="global_messageDetails col-md-10">
+													<span class="global_messageUserName">User Name or Band Name</span>
+													<div class="global_message">
+														<p>Lorem ipsum dolor sit amet, consec tetur adipiscing elit...</p>
+													</div>
+													<span class="global_dateTime">9:15am | Monday, September 24</span>
+												</div>
+											</li>
+											
+								        </ul>
+										<ul class="global_ContentControl">
+											<li><a class="global_modalButton" onclick="global_modalCancel();">View All</a></li>
+										</ul>
+									</div>
+								</div>
+								
 							</li>
 							<li class="global_action">
 								<a data-placement="bottom" title="" rel="tooltip" class="global_notifyChat" data-original-title="Chat">Chat</a>

@@ -201,7 +201,19 @@ $(document).ready(function() {
 
 /*////////////// edit header user dropdown ////////////////*/
 $('#header-user-dropdown').click(function() { 
-  $('#header-dropdown-wrapper').slideToggle( 100, function() {
+  $('#header-user-dropdown-wrapper').slideToggle( 100, function() {
+
+  }); 
+});
+
+$('#header-friend-dropdown').click(function() { 
+  $('#header-friend-dropdown-wrapper').slideToggle( 100, function() {
+
+  }); 
+});
+
+$('#header-messages-dropdown').click(function() { 
+  $('#header-messages-dropdown-wrapper').slideToggle( 100, function() {
 
   }); 
 });
