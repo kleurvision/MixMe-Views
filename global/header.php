@@ -162,9 +162,7 @@
 											</li>
 											
 								        </ul>
-										<ul class="global_ContentControl">
-											<li><a class="global_modalButton" onclick="global_modalCancel();">View All</a></li>
-										</ul>
+										<a class="btn btn-primary btn-sm">View All</a>
 									</div>
 								</div>
 								
