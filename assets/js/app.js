@@ -219,4 +219,8 @@ $('#header-messages-dropdown').click(function() {
 });
 
 
+/*///////////////////// Chat Bar //////////////////*/
+$('.global_notifyChat').click(function() {
+	$('.global_chat_wrapper').fadeToggle();
+});
 

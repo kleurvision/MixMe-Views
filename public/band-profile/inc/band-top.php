@@ -5,12 +5,60 @@
 	<div class="profile_controls pull-right">
 		<div class="btn-group">
 			<button type="button" role="button" class="btn btn-default" href="#tipModal" data-toggle="modal"><i class="icon-dollar"></i></button>
-			<button type="button" class="btn btn-default"><i class="icon-ok"></i></button>
+			<button type="button" class="btn btn-default" href="#notificationsModal" data-toggle="modal"><i class="icon-ok"></i></button>
 			<button type="button" class="btn btn-default"><i class="icon-thumbs-up"></i></button>
 			<button type="button" class="btn btn-default"><i class="icon-thumbs-down"></i></button>
 		</div>
 		<div class="btn profile_broadcasting gradient">
 		Online
+		</div>
+	</div>
+</div>
+
+<!-- Notifications Modal -->
+<div id="notificationsModal" class="modal fade">
+	<div class="modal-dialog">
+		<div class="modal-content">
+			<div class="modal-header admin_stage_head">
+				<h2 class="admin_stage_title stage_title">Artist Notifications</h2>
+			    <button type="button" class="close" aria-hidden="true">&times;</button>
+			</div>
+			<div class="modal-body public_modal_content">
+				<div class="row notification_setting">
+					<div class="col-md-4">
+						<p>Email Notifications</p>
+					</div>
+					<div class="col-md-7 offset1">
+						<div class="make-switch switch">
+							<input type="checkbox" name="email_notifications" checked>
+						</div>
+					</div>
+				</div>
+				<div class="row notification_setting">
+					<div class="col-md-4">
+						<p>SMS Notifications</p>
+					</div>
+					<div class="col-md-7 offset1">
+						<div class="make-switch switch">
+							<input type="checkbox" name="sms_notifications" checked>
+						</div>
+					</div>
+				</div>
+				<div class="row notification_setting">
+					<div class="col-md-4">
+						<p>Chat Notifications</p>
+					</div>
+					<div class="col-md-7 offset1">
+						<div class="make-switch switch">
+							<input type="checkbox" name="chat_notifications" checked>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="admin_stage_bottom">
+					<button class="btn modal-save-cancel global_action_btn gradient pull-right" data-dismiss="modal" aria-hidden="true">Cancel</button>
+			</div>
+			</form>
 		</div>
 	</div>
 </div>

@@ -16,6 +16,7 @@
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<script src="<?=ASSETS;?>/js/bootstrap.min.js"></script>
 	<script src="<?=ASSETS;?>/js/app.js"></script>
+	<script src="<?=ASSETS;?>/js/switch.js"></script>
 	<script src="<?=ASSETS;?>/js/list-dropdown.js"></script>
 
 	<script>

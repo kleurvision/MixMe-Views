@@ -180,4 +180,9 @@
 
 		</nav>
 	<!-- / End Global Header -->
+	
+	<!-- Chat -->
+		<? include 'chat.php';?>
+	<!-- / Chat -->
+	
 		<div class="main">	

@@ -11,6 +11,7 @@ include('../global/header.php');?>
 		<div class="profile_sidebar_container col-md-3">
 			<? include ('band-profile/inc/band-sidebar.php');?>
 		</div>
+				
 		<div class="band_profile_stage_container col-md-9">
 			<? include ('band-profile/band-public-activity.php');?>
 			

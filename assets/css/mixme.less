@@ -1,6 +1,9 @@
 // Bootstrap
 @import 'bootstrap.css';
 
+// Switch
+@import 'switch.less';
+
 /* Load Fonts */
 @import url(http://fonts.googleapis.com/css?family=Quattrocento+Sans:400,700);
 /* font-family: 'Quattrocento Sans', sans-serif; */
@@ -248,6 +251,19 @@ img{
 
 .global_notifyChat{
 	background-position: 0 -33px !important;
+}
+
+.global_chat_wrapper{
+	background-image: url("../img/pv2_blog_bg.jpg");
+    background-repeat: repeat;
+    display: none;
+    padding-bottom: 80px;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 240px;
+    z-index: 300;
+    margin-top: 50px;
 }
 
 .global_userNav{
@@ -1706,8 +1722,9 @@ tbody > tr:last-child{
 	background: yellow;
 }
 
-.fan_target_content{
+.fan_target_content, .public_modal_content{
 	background: url(../img/admin_bkg.png) repeat #e1e1e1;
+	
 
 }
 
@@ -2427,6 +2444,22 @@ tbody > tr:last-child{
 	font-size: 12px;
 	color: #989a97;
 }
+
+.notification_setting{
+	padding: 10px 0 5px;
+	border-bottom: 1px solid #ccc;
+	p{
+		line-height: 28px;
+	}
+}
+
+.modal-header .close{
+	position: absolute;
+    right: 12px;
+    top: 4px;
+    margin: 0px;
+}
+
 // Responsive
 ////////////////////////////////////////////////////////////
 
