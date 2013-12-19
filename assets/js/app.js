@@ -3,7 +3,7 @@
 $(function() {
     $('.ajax-load').click(function() {
         var link = this.getAttribute('data-link');
-        $(".band_profile_stage_container").load("/public/band-profile/band-"+link+".php", function(){
+        $(".band_profile_stage_container").load("/band-profile/band-"+link+".php", function(){
 		    $('#pull_down_1').click(function() {
 		  $('.track_list').slideToggle('slow', function() {
 
@@ -79,7 +79,7 @@ $(function() {
 // public user profile
 $('.ajax-load').click(function() {
         var link = this.getAttribute('data-link');
-        $(".user-profile_stage_container").load("/public/user-profile/user-"+link+".php", function(){
+        $(".user-profile_stage_container").load("public/user-profile/user-"+link+".php", function(){
 		    $('#pull_down_1').click(function() {
 		  $('.track_list').slideToggle('slow', function() {
 
@@ -224,3 +224,15 @@ $('.global_notifyChat').click(function() {
 	$('.global_chat_wrapper').fadeToggle();
 });
 
+$(document).ready(function() {
+
+	$.backstretch([
+	  "assets/img/home-bkg-1.jpg",
+	  "assets/img/home-bkg-2.jpg",
+	  "assets/img/home-bkg-3.jpg"
+	  ], {
+	    fade: 750,      //Speed of Fade
+	    duration: 4000  //Time of image display
+	});
+
+});
