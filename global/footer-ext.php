@@ -1,9 +1,20 @@
 		</div><!-- main -->
 		<div class="push"></div>
+		
+		<div class="home-footer container">
+			<div class="pull-left"><small>&copy; <?=date('Y');?> MixMe.com. All rights reserved.</small></div>
+			<div class="pull-right">
+				<? include 'global/social.php';?>
+			</div>
+		</div>
 	</div><!-- wrapper -->
+	
+	
 	
 	<div class="global_vign">
 	</div>
+	
+	
 	
 	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
 	<script src="//code.jquery.com/jquery.js"></script>

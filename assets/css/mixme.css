@@ -394,9 +394,27 @@ tbody>tr:last-child{border-bottom:solid 1px #333}
 .modal-header .close{position:absolute;right:12px;top:4px;margin:0}
 .home-main .row{margin-bottom:5px}
 .home-main h3{color:#f9ec00;text-shadow:0 0 5px #000}.home-main h3 span{font-weight:bold}
+.home-main .btn-primary{background-color:#2ac8f6;border:none}.home-main .btn-primary:hover{background-color:#12aef0}
 .home-brand{text-align:center;margin-bottom:100px}
-.home-features{background:#000;border:5px solid rgba(0,0,0,0.3);background-clip:padding-box}
-.home-stage{background:#000;border:5px solid rgba(0,0,0,0.3);background-clip:padding-box}
-.home-input{border:#000;background:rgba(0,0,0,0.6);color:#3276b1;font-weight:bold}.home-input::-webkit-input-placeholder{font-weight:normal;color:}
+.home-features{background:#000;border:5px solid rgba(0,0,0,0.3);background-clip:padding-box;margin-top:50px}.home-features>div{text-align:center;padding:10px 20px}.home-features>div h3{margin-top:12px}
+.home-features>div p{color:#e1e1e1;font-size:13px}
+.home-stage{background:rgba(0,0,0,0.6);background-clip:padding-box;padding:20px;border-radius:4px;-moz-border-radius:4px;-webkit-border-radius:4px}.home-stage p{font-size:17px;line-height:23px;color:#e1e1e1;width:80%;font-weight:200}
+.home-stage blockquote{font-size:37px;color:#2ac8f6;margin:23px 0;border:none;padding:0;font-family:'Quattrocento Sans',sans-serif}
+.home-input{border:#000;background:rgba(0,0,0,0.6);color:#2ac8f6;font-weight:bold}.home-input::-webkit-input-placeholder{font-weight:normal;color:}
 .home-input:-moz-placeholder{font-weight:normal;color:}
+.icon{background-image:url("../img/hero-icons.png");background-repeat:no-repeat;background-position:0 0;width:100px;height:80px;display:block;position:relative;margin:0 auto}.icon.icon-listen{background-position:8px 0}
+.icon.icon-engage{background-position:-787px 0}
+.icon.icon-connect{background-position:-655px 0}
+.home-footer{margin-top:40px;height:50px;padding-top:20px;border-top:1px solid #666;color:#666}
+.static_social ul{list-style:none}
+.static_social ul li{float:left}
+.static_social ul li a{background:url("../img/icons_sprite_small.png") no-repeat scroll 0 0 transparent;display:block;height:31px;margin-right:5px;text-indent:-8999px;width:30px}
+.static_social ul li#static_facebook a{background-position:-569px -69px}
+.static_social ul li#static_twitter a{background-position:-602px -69px}
+.static_social ul li#static_googleplus a{background-position:-635px -69px}
+.static_social ul li#static_linkedin a{background-position:-669px -69px}
+.static_social ul li#static_facebook a:hover{background-position:-569px -2px}
+.static_social ul li#static_twitter a:hover{background-position:-602px -2px}
+.static_social ul li#static_googleplus a:hover{background-position:-635px -2px}
+.static_social ul li#static_linkedin a:hover{background-position:-669px -2px}
 @media (min-width:768px){.player-controls-wrap{padding:0}}@media (min-width:992px){.stage_container{padding:0 0 0 10px}}@media (min-width:1200px){.profile_stage_container{padding:0 0 0 10px}}@media (max-width:767px){.player-contents{background:#000;box-shadow:none;color:#fff} .album_background{height:100%} .profile_album_thumb{float:none;clear:right}}

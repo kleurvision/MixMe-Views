@@ -9,7 +9,11 @@ include('global/header-ext.php');?>
 	<div class="col-md-7">
 		<h3 class="home-tagline">Music Discovery <span>Reinvented</span></h3>
 		<div class="home-stage container">
-			Welcome to MixMe	
+			<p>This ain't 2003, and we aren't MySpace. There's no customized pages with dancing kittykats, psychedelic backgrounds or flashing banner ads. There's no advertising to avoid and ignore.</p>
+
+<blockquote >It's all about the music.</blockquote>
+
+<p>All you have to do is register to create an account. All for free.</p>	
 		</div>
 	</div>
 	<div class="home-form col-md-5">
@@ -61,13 +65,19 @@ include('global/header-ext.php');?>
 
 <div class="row home-features">
 	<div class="col-md-4">
-	1
+		<i class="icon icon-listen"></i>
+		<h3>Listen</h3>
+		<p>A chance to hear all the new music you want, all for free, and discover bands before they get big, get fat and sell out. This is your new discovery portal.</p>
 	</div>
 	<div class="col-md-4">
-	2
+		<i class="icon icon-engage"></i>
+		<h3>Engage</h3>
+		<p>Create custom mixes you can share with friends and members of the opposite sex, impressing them with your musical savvy and all-around good taste.</p>
 	</div>
 	<div class="col-md-4">
-	3
+		<i class="icon icon-connect"></i>
+		<h3>Connect</h3>
+		<p>Email and SMS your friends and fans to keep them updated on everything thats happening in new music. Reach in and get connected.</p>
 	</div>
 </div>
 

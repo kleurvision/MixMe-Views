@@ -231,8 +231,8 @@ $(document).ready(function() {
 	  "assets/img/home-bkg-2.jpg",
 	  "assets/img/home-bkg-3.jpg"
 	  ], {
-	    fade: 750,      //Speed of Fade
-	    duration: 4000  //Time of image display
+	    fade: 1000,      //Speed of Fade
+	    duration: 8000  //Time of image display
 	});
 
 });
